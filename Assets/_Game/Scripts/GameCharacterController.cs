@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameCharacterController : MonoBehaviour
 {
+    public Transform EnemyTarget;
     [SerializeField]private ProgressBarPro playerHealthRadial;
     enum AttackCostType
     {
@@ -28,7 +29,7 @@ public class GameCharacterController : MonoBehaviour
     private int Health = 100;
     private int Stamina = 100;
     private int Mana = 100;
-
+    public static GameCharacterController Instance;
     private void Start()
     {
         MaxHealth = Health;
@@ -137,10 +138,15 @@ public class GameCharacterController : MonoBehaviour
     {
         // Damage Enemy
     }
-    public void DoMinorAttack(int amount)
+    public void DoMinorAttack(int amount, Transform target)
     {
         DoDamage(amount);
         PlayerAnimator.SetTrigger(StateToAnimParameter(AnimationStates.MinorAttackTrigger));
+        GetComponent<AttackController>().FireMagicProjectile(target);
+
+    }
+    public void FireAttackProjectile(Transform target, float moveSpeed)
+    {
 
     }
     public void DoMajorAttack(int amount, int attackDuration)
@@ -175,8 +181,9 @@ public class GameCharacterController : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.N))
         {
-            DoMinorAttack(10);
+            DoMinorAttack(10, EnemyTarget);
         }
+        
 #endif
     }
 }

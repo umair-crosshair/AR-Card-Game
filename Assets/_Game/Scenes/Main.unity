@@ -397,6 +397,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1169609660}
   - component: {fileID: 1169609661}
+  - component: {fileID: 1169609662}
   m_Layer: 0
   m_Name: PlayerCharacter
   m_TagString: Untagged
@@ -433,8 +434,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60c31c1a7b702634697401ff09630632, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EnemyTarget: {fileID: 1519392533}
   playerHealthRadial: {fileID: 733949747}
   PlayerAnimator: {fileID: 6932038802789983020}
+--- !u!114 &1169609662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169609659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5ea6ed7db56f1a4d8d8b3d620e0d144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MagicAttackProjectile: {fileID: 8662083399708035657, guid: 924ba0cfad38fbe4e8620250952279af,
+    type: 3}
 --- !u!1 &1211644497
 GameObject:
   m_ObjectHideFlags: 0
@@ -814,75 +830,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &2141056915
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2594940532619901106, guid: 65f1fc5fae76b6343b3b946852d1fbde,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 2594940532619901106, guid: 65f1fc5fae76b6343b3b946852d1fbde,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -12.49
-      objectReference: {fileID: 0}
-    - target: {fileID: 2594940532619901106, guid: 65f1fc5fae76b6343b3b946852d1fbde,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2594940532619901106, guid: 65f1fc5fae76b6343b3b946852d1fbde,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 5.44
-      objectReference: {fileID: 0}
-    - target: {fileID: 2594940532619901106, guid: 65f1fc5fae76b6343b3b946852d1fbde,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2594940532619901106, guid: 65f1fc5fae76b6343b3b946852d1fbde,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2594940532619901106, guid: 65f1fc5fae76b6343b3b946852d1fbde,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2594940532619901106, guid: 65f1fc5fae76b6343b3b946852d1fbde,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2594940532619901106, guid: 65f1fc5fae76b6343b3b946852d1fbde,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2594940532619901106, guid: 65f1fc5fae76b6343b3b946852d1fbde,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2594940532619901106, guid: 65f1fc5fae76b6343b3b946852d1fbde,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7327595532996708429, guid: 65f1fc5fae76b6343b3b946852d1fbde,
-        type: 3}
-      propertyPath: m_Name
-      value: MagicVFX
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 65f1fc5fae76b6343b3b946852d1fbde, type: 3}
 --- !u!1001 &2260236113452987677
 PrefabInstance:
   m_ObjectHideFlags: 0
