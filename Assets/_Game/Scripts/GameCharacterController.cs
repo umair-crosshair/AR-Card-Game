@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameCharacterController : MonoBehaviour
 {
+    [SerializeField]private ProgressBarPro playerHealthRadial;
     enum AttackCostType
     {
         Stamina,
@@ -23,11 +24,15 @@ public class GameCharacterController : MonoBehaviour
         IsVictoryTrigger
     }
     [SerializeField] private Animator PlayerAnimator;
+    private int MaxHealth;
     private int Health = 100;
     private int Stamina = 100;
     private int Mana = 100;
-    
 
+    private void Start()
+    {
+        MaxHealth = Health;
+    }
 
     public int GetHealth()
     {
@@ -61,9 +66,12 @@ public class GameCharacterController : MonoBehaviour
             PlayerAnimator.SetTrigger(StateToAnimParameter(AnimationStates.IsHitTrigger));
             if(Health <= 0)
             {
+                Health = 0;
                 Die();
             }
-            
+            RefreshUI();
+
+
         }
     }
     private string StateToAnimParameter(AnimationStates animationState)
@@ -148,6 +156,11 @@ public class GameCharacterController : MonoBehaviour
     public void Die()
     {
         PlayerAnimator.SetTrigger(StateToAnimParameter(AnimationStates.IsDieTrigger));
+    }
+    private void RefreshUI()
+    {
+        float healthPercentage = ((float)Health / (float)MaxHealth);
+        playerHealthRadial.SetValue(healthPercentage);
     }
     private void Update()
     {
