@@ -5059,7 +5059,7 @@ MonoBehaviour:
   - tagBefore: 'Friendly '
     tagAfter: Enemy
   toolbarStateManagerSelection: 0
-  toolbarStateManagerGeneralSettingsSelection: 1
+  toolbarStateManagerGeneralSettingsSelection: 0
   toolbarStateManagerEffectWatcherSettingsSelection: 0
   showHelpInformation: 1
   updateEditorAtRunTime: 0
@@ -25784,10 +25784,10 @@ MonoBehaviour:
       refVal: {fileID: 5327694018771214667}
       refName: ABC_txtIconRecast
       refUpdateDateTime: 
-  toolbarControllerManagerSelection: 3
+  toolbarControllerManagerSelection: 0
   toolbarControllerManagerGeneralSettingsSelection: 0
   toolbarControllerManagerTargetSettingsSelection: 0
-  toolbarControllerManagerAISettingsSelection: 0
+  toolbarControllerManagerAISettingsSelection: 2
   toolbarControllerManagerAbilityGroupSettingsSelection: 0
   toolbarControllerManagerWeaponSettingsSelection: 2
   toolbarAbiltyManagerSelection: 0

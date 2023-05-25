@@ -4358,7 +4358,144 @@ MonoBehaviour:
     bouncePositionRightOffset: 0
     boomerangMode: 0
     boomerangDelay: 0
-    effects: []
+    effects:
+    - effectPool:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      foldOut: 1
+      globalEffect: {fileID: 0}
+      effectAbilityID: 0
+      effectID: 115571
+      effectName: AdjustHealth
+      potency: -10
+      modifyPotencyUsingStats: 1
+      potencyStatModifications:
+      - statIntegrationType: 0
+        arithmeticOperator: 1
+        percentageValue: 45
+        statSource: 1
+        statName: Strength
+      - statIntegrationType: 0
+        arithmeticOperator: 0
+        percentageValue: 25
+        statSource: 0
+        statName: Defence
+      miscellaneousProperty: 
+      miscellaneousAltProperty: 
+      activateOn: 0
+      eventType: 0
+      delay: 0
+      effectDuration: 0.1
+      allowDuplicateEffectActivation: 0
+      limitNoOfDuplicateEffectActivations: 1
+      maxNoDuplicateEffectActivations: 3
+      repeatEffect: 0
+      repeatDuration: 0
+      repeatInterval: 0
+      repeatCount: 0
+      repeatAesthetics: 0
+      enableEffectActivationRange: 0
+      effectActivationRange: 0
+      effectIgnoreTag: []
+      effectIgnoreTagCheckObject: 0
+      effectIgnoreTagCheckEntity: 0
+      effectRequiredTag: []
+      effectRequiredTagCheckObject: 0
+      effectRequiredTagCheckEntity: 0
+      useProjectileForActivationRange: 0
+      effectRandomChance: 0
+      effectRandomChanceProbabilityMin: 0
+      effectRandomChanceProbabilityMax: 0
+      hitStopsMovement: 1
+      hitStopsMovementRandomChance: 0
+      hitStopsMovementProbabilityMin: 0
+      hitStopsMovementProbabilityMax: 0
+      hitPreventsCasting: 1
+      hitPreventsCastingRandomChance: 1
+      hitPreventsCastingProbabilityMin: 0
+      hitPreventsCastingProbabilityMax: 80
+      hitInterruptsCasting: 1
+      hitInterruptsCastingRandomChance: 1
+      hitInterruptsCastingProbabilityMin: 0
+      hitInterruptsCastingProbabilityMax: 20
+      playEffect: 1
+      addToEffectText: 1
+      effectText: '#Potency#'
+      effectTextDuration: 5
+      effectTextColour: {r: 1, g: 1, b: 1, a: 0}
+      addToEffectLog: 1
+      effectLogText: '#Origin# #Ability# inflicted #Potency# Damage on #Target#'
+      enableRemoveEffect: 0
+      dispellable: 0
+      specificPrepareTimeRequried: 0
+      specificPrepareTimeArithmeticComparison: 0
+      prepareTimeToActivate: 1
+      requireSplashToActivate: 0
+      removeEffectAddToEffectText: 0
+      removeEffectText: 
+      removeEffectTextDuration: 0
+      removeEffectTextColour: {r: 0, g: 0, b: 0, a: 0}
+      removeEffectAddToEffectLog: 0
+      removeEffectLogText: 
+      showNonActivationReason: 0
+      effectGraphic:
+        refVal: {fileID: 4535006216103734310, guid: e5756032baed779478e067813db54f44,
+          type: 3}
+        refName: Star hit electric
+        refUpdateDateTime: 5/25/2023 11:09:33 AM
+      effectChildGraphic:
+        refVal: {fileID: 0}
+        refName: 
+        refUpdateDateTime: 5/25/2023 11:09:37 AM
+      scaleEffectGraphic: 0
+      effectGraphicScale: 1
+      effectGraphicOffset: {x: 0, y: 1.2, z: 0}
+      effectGraphicForwardOffset: 0
+      effectGraphicRightOffset: 0
+      effectGraphicDelay: 0
+      effectGraphicDuration: 3
+      effectFollowTarget: 1
+      effectOnHitPosition: 0
     onEnter: 1
     onStay: 0
     onStayInterval: 0.3
@@ -4625,18 +4762,19 @@ MonoBehaviour:
       refUpdateDateTime: 
     preparingPositionOnTag: 
     useProjectileToStartPosition: 0
-    projectileToStartType: 0
+    projectileToStartType: 1
     projToStartDelay: 0
     useOriginalProjectilePTS: 0
     projToStartPosGraphic:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
+      refVal: {fileID: 2965222256817593503, guid: a164e676dbbd6e54587237e619372c98,
+        type: 3}
+      refName: Electro hit
+      refUpdateDateTime: 5/25/2023 10:32:22 AM
     projToStartPosSubGraphic:
       refVal: {fileID: 0}
       refName: 
       refUpdateDateTime: 
-    projToStartPosDuration: 11655204
+    projToStartPosDuration: 1
     projToStartStartingPosition: 0
     projToStartRotateToTarget: 0
     projToStartRotation: {x: 0, y: 0, z: 0}
@@ -5015,7 +5153,144 @@ MonoBehaviour:
     bouncePositionRightOffset: 0
     boomerangMode: 0
     boomerangDelay: 0
-    effects: []
+    effects:
+    - effectPool:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      foldOut: 1
+      globalEffect: {fileID: 0}
+      effectAbilityID: 0
+      effectID: 115571
+      effectName: AdjustHealth
+      potency: -10
+      modifyPotencyUsingStats: 1
+      potencyStatModifications:
+      - statIntegrationType: 0
+        arithmeticOperator: 1
+        percentageValue: 45
+        statSource: 1
+        statName: Strength
+      - statIntegrationType: 0
+        arithmeticOperator: 0
+        percentageValue: 25
+        statSource: 0
+        statName: Defence
+      miscellaneousProperty: 
+      miscellaneousAltProperty: 
+      activateOn: 0
+      eventType: 0
+      delay: 0
+      effectDuration: 0.1
+      allowDuplicateEffectActivation: 0
+      limitNoOfDuplicateEffectActivations: 1
+      maxNoDuplicateEffectActivations: 3
+      repeatEffect: 0
+      repeatDuration: 0
+      repeatInterval: 0
+      repeatCount: 0
+      repeatAesthetics: 0
+      enableEffectActivationRange: 0
+      effectActivationRange: 0
+      effectIgnoreTag: []
+      effectIgnoreTagCheckObject: 0
+      effectIgnoreTagCheckEntity: 0
+      effectRequiredTag: []
+      effectRequiredTagCheckObject: 0
+      effectRequiredTagCheckEntity: 0
+      useProjectileForActivationRange: 0
+      effectRandomChance: 0
+      effectRandomChanceProbabilityMin: 0
+      effectRandomChanceProbabilityMax: 0
+      hitStopsMovement: 1
+      hitStopsMovementRandomChance: 0
+      hitStopsMovementProbabilityMin: 0
+      hitStopsMovementProbabilityMax: 0
+      hitPreventsCasting: 1
+      hitPreventsCastingRandomChance: 1
+      hitPreventsCastingProbabilityMin: 0
+      hitPreventsCastingProbabilityMax: 80
+      hitInterruptsCasting: 1
+      hitInterruptsCastingRandomChance: 1
+      hitInterruptsCastingProbabilityMin: 0
+      hitInterruptsCastingProbabilityMax: 20
+      playEffect: 1
+      addToEffectText: 1
+      effectText: '#Potency#'
+      effectTextDuration: 5
+      effectTextColour: {r: 1, g: 1, b: 1, a: 0}
+      addToEffectLog: 1
+      effectLogText: '#Origin# #Ability# inflicted #Potency# Damage on #Target#'
+      enableRemoveEffect: 0
+      dispellable: 0
+      specificPrepareTimeRequried: 0
+      specificPrepareTimeArithmeticComparison: 0
+      prepareTimeToActivate: 1
+      requireSplashToActivate: 0
+      removeEffectAddToEffectText: 0
+      removeEffectText: 
+      removeEffectTextDuration: 0
+      removeEffectTextColour: {r: 0, g: 0, b: 0, a: 0}
+      removeEffectAddToEffectLog: 0
+      removeEffectLogText: 
+      showNonActivationReason: 0
+      effectGraphic:
+        refVal: {fileID: 4535006216103734310, guid: e5756032baed779478e067813db54f44,
+          type: 3}
+        refName: Star hit electric
+        refUpdateDateTime: 5/25/2023 11:16:12 AM
+      effectChildGraphic:
+        refVal: {fileID: 0}
+        refName: 
+        refUpdateDateTime: 
+      scaleEffectGraphic: 0
+      effectGraphicScale: 1
+      effectGraphicOffset: {x: 0, y: 1.2, z: 0}
+      effectGraphicForwardOffset: 0
+      effectGraphicRightOffset: 0
+      effectGraphicDelay: 0
+      effectGraphicDuration: 3
+      effectFollowTarget: 1
+      effectOnHitPosition: 0
     onEnter: 1
     onStay: 0
     onStayInterval: 0.3
@@ -5672,7 +5947,144 @@ MonoBehaviour:
     bouncePositionRightOffset: 0
     boomerangMode: 0
     boomerangDelay: 0
-    effects: []
+    effects:
+    - effectPool:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      foldOut: 0
+      globalEffect: {fileID: 0}
+      effectAbilityID: 0
+      effectID: 115571
+      effectName: AdjustHealth
+      potency: -10
+      modifyPotencyUsingStats: 1
+      potencyStatModifications:
+      - statIntegrationType: 0
+        arithmeticOperator: 1
+        percentageValue: 45
+        statSource: 1
+        statName: Strength
+      - statIntegrationType: 0
+        arithmeticOperator: 0
+        percentageValue: 25
+        statSource: 0
+        statName: Defence
+      miscellaneousProperty: 
+      miscellaneousAltProperty: 
+      activateOn: 0
+      eventType: 0
+      delay: 0
+      effectDuration: 0.1
+      allowDuplicateEffectActivation: 0
+      limitNoOfDuplicateEffectActivations: 1
+      maxNoDuplicateEffectActivations: 3
+      repeatEffect: 0
+      repeatDuration: 0
+      repeatInterval: 0
+      repeatCount: 0
+      repeatAesthetics: 0
+      enableEffectActivationRange: 0
+      effectActivationRange: 0
+      effectIgnoreTag: []
+      effectIgnoreTagCheckObject: 0
+      effectIgnoreTagCheckEntity: 0
+      effectRequiredTag: []
+      effectRequiredTagCheckObject: 0
+      effectRequiredTagCheckEntity: 0
+      useProjectileForActivationRange: 0
+      effectRandomChance: 0
+      effectRandomChanceProbabilityMin: 0
+      effectRandomChanceProbabilityMax: 0
+      hitStopsMovement: 1
+      hitStopsMovementRandomChance: 0
+      hitStopsMovementProbabilityMin: 0
+      hitStopsMovementProbabilityMax: 0
+      hitPreventsCasting: 1
+      hitPreventsCastingRandomChance: 1
+      hitPreventsCastingProbabilityMin: 0
+      hitPreventsCastingProbabilityMax: 80
+      hitInterruptsCasting: 1
+      hitInterruptsCastingRandomChance: 1
+      hitInterruptsCastingProbabilityMin: 0
+      hitInterruptsCastingProbabilityMax: 20
+      playEffect: 1
+      addToEffectText: 1
+      effectText: '#Potency#'
+      effectTextDuration: 5
+      effectTextColour: {r: 1, g: 1, b: 1, a: 0}
+      addToEffectLog: 1
+      effectLogText: '#Origin# #Ability# inflicted #Potency# Damage on #Target#'
+      enableRemoveEffect: 0
+      dispellable: 0
+      specificPrepareTimeRequried: 0
+      specificPrepareTimeArithmeticComparison: 0
+      prepareTimeToActivate: 1
+      requireSplashToActivate: 0
+      removeEffectAddToEffectText: 0
+      removeEffectText: 
+      removeEffectTextDuration: 0
+      removeEffectTextColour: {r: 0, g: 0, b: 0, a: 0}
+      removeEffectAddToEffectLog: 0
+      removeEffectLogText: 
+      showNonActivationReason: 0
+      effectGraphic:
+        refVal: {fileID: 4535006216103734310, guid: e5756032baed779478e067813db54f44,
+          type: 3}
+        refName: Star hit electric
+        refUpdateDateTime: 5/25/2023 11:16:30 AM
+      effectChildGraphic:
+        refVal: {fileID: 0}
+        refName: 
+        refUpdateDateTime: 
+      scaleEffectGraphic: 0
+      effectGraphicScale: 1
+      effectGraphicOffset: {x: 0, y: 1.2, z: 0}
+      effectGraphicForwardOffset: 0
+      effectGraphicRightOffset: 0
+      effectGraphicDelay: 0
+      effectGraphicDuration: 3
+      effectFollowTarget: 1
+      effectOnHitPosition: 0
     onEnter: 1
     onStay: 0
     onStayInterval: 0.3
@@ -6378,7 +6790,7 @@ MonoBehaviour:
       effectAbilityID: 0
       effectID: 115571
       effectName: AdjustHealth
-      potency: -20
+      potency: -10
       modifyPotencyUsingStats: 1
       potencyStatModifications:
       - statIntegrationType: 0
@@ -6450,10 +6862,10 @@ MonoBehaviour:
       removeEffectLogText: 
       showNonActivationReason: 0
       effectGraphic:
-        refVal: {fileID: 1408438189832907454, guid: 6c2719f3ee9554d4ba1cd6109cfd6cba,
+        refVal: {fileID: 4535006216103734310, guid: e5756032baed779478e067813db54f44,
           type: 3}
-        refName: HitSparkImpactHeavy
-        refUpdateDateTime: 28/04/2021 14:18:21
+        refName: Star hit electric
+        refUpdateDateTime: 5/25/2023 11:17:03 AM
       effectChildGraphic:
         refVal: {fileID: 0}
         refName: 
@@ -6478,17 +6890,17 @@ MonoBehaviour:
       - {fileID: 0}
       - {fileID: 0}
       - {fileID: 0}
-      foldOut: 0
+      foldOut: 1
       globalEffect: {fileID: 0}
       effectAbilityID: 0
-      effectID: 115571
+      effectID: 111518414
       effectName: AdjustHealth
-      potency: -1
+      potency: -10
       modifyPotencyUsingStats: 1
       potencyStatModifications:
       - statIntegrationType: 0
         arithmeticOperator: 1
-        percentageValue: 65
+        percentageValue: 20
         statSource: 1
         statName: Magic
       - statIntegrationType: 0
@@ -6506,10 +6918,10 @@ MonoBehaviour:
       limitNoOfDuplicateEffectActivations: 1
       maxNoDuplicateEffectActivations: 3
       repeatEffect: 0
-      repeatDuration: 30
-      repeatInterval: 5
+      repeatDuration: 0
+      repeatInterval: 0
       repeatCount: 0
-      repeatAesthetics: 1
+      repeatAesthetics: 0
       enableEffectActivationRange: 0
       effectActivationRange: 0
       effectIgnoreTag: []
@@ -6522,15 +6934,15 @@ MonoBehaviour:
       effectRandomChance: 0
       effectRandomChanceProbabilityMin: 0
       effectRandomChanceProbabilityMax: 0
-      hitStopsMovement: 0
+      hitStopsMovement: 1
       hitStopsMovementRandomChance: 0
       hitStopsMovementProbabilityMin: 0
       hitStopsMovementProbabilityMax: 0
-      hitPreventsCasting: 0
+      hitPreventsCasting: 1
       hitPreventsCastingRandomChance: 0
       hitPreventsCastingProbabilityMin: 0
       hitPreventsCastingProbabilityMax: 0
-      hitInterruptsCasting: 0
+      hitInterruptsCasting: 1
       hitInterruptsCastingRandomChance: 1
       hitInterruptsCastingProbabilityMin: 0
       hitInterruptsCastingProbabilityMax: 90
@@ -6538,7 +6950,7 @@ MonoBehaviour:
       addToEffectText: 1
       effectText: '#Potency#'
       effectTextDuration: 5
-      effectTextColour: {r: 0.9811321, g: 0, b: 0, a: 0}
+      effectTextColour: {r: 1, g: 1, b: 1, a: 0}
       addToEffectLog: 1
       effectLogText: '#Origin# #Ability# inflicted #Potency# Damage on #Target#'
       enableRemoveEffect: 0
@@ -6546,7 +6958,7 @@ MonoBehaviour:
       specificPrepareTimeRequried: 0
       specificPrepareTimeArithmeticComparison: 0
       prepareTimeToActivate: 1
-      requireSplashToActivate: 1
+      requireSplashToActivate: 0
       removeEffectAddToEffectText: 0
       removeEffectText: 
       removeEffectTextDuration: 0
@@ -6555,108 +6967,23 @@ MonoBehaviour:
       removeEffectLogText: 
       showNonActivationReason: 0
       effectGraphic:
-        refVal: {fileID: 1321021649640250, guid: 7e6c183d69bb7084c894a627bd43db61,
+        refVal: {fileID: 394866225015085040, guid: a62a993be129b6a469bc8d79c4471a25,
           type: 3}
-        refName: FireImpact
-        refUpdateDateTime: 08/05/2021 10:06:20
+        refName: MyLightningImpact
+        refUpdateDateTime: 5/25/2023 11:25:08 AM
       effectChildGraphic:
         refVal: {fileID: 0}
         refName: 
         refUpdateDateTime: 
       scaleEffectGraphic: 0
       effectGraphicScale: 1
-      effectGraphicOffset: {x: 0, y: 1.21, z: 0}
+      effectGraphicOffset: {x: 0, y: 0.5, z: 0}
       effectGraphicForwardOffset: 0
       effectGraphicRightOffset: 0
       effectGraphicDelay: 0
       effectGraphicDuration: 2
       effectFollowTarget: 1
-      effectOnHitPosition: 0
-    - effectPool: []
-      foldOut: 0
-      globalEffect: {fileID: 0}
-      effectAbilityID: 0
-      effectID: 111638811
-      effectName: RandomHitAnimation
-      potency: 5
-      modifyPotencyUsingStats: 0
-      potencyStatModifications: []
-      miscellaneousProperty: 
-      miscellaneousAltProperty: 
-      activateOn: 0
-      eventType: 0
-      delay: 0
-      effectDuration: 0.5
-      allowDuplicateEffectActivation: 1
-      limitNoOfDuplicateEffectActivations: 1
-      maxNoDuplicateEffectActivations: 3
-      repeatEffect: 0
-      repeatDuration: 30
-      repeatInterval: 5
-      repeatCount: 0
-      repeatAesthetics: 1
-      enableEffectActivationRange: 0
-      effectActivationRange: 0
-      effectIgnoreTag: []
-      effectIgnoreTagCheckObject: 0
-      effectIgnoreTagCheckEntity: 0
-      effectRequiredTag: []
-      effectRequiredTagCheckObject: 0
-      effectRequiredTagCheckEntity: 0
-      useProjectileForActivationRange: 0
-      effectRandomChance: 0
-      effectRandomChanceProbabilityMin: 0
-      effectRandomChanceProbabilityMax: 0
-      hitStopsMovement: 0
-      hitStopsMovementRandomChance: 0
-      hitStopsMovementProbabilityMin: 0
-      hitStopsMovementProbabilityMax: 0
-      hitPreventsCasting: 0
-      hitPreventsCastingRandomChance: 0
-      hitPreventsCastingProbabilityMin: 0
-      hitPreventsCastingProbabilityMax: 0
-      hitInterruptsCasting: 0
-      hitInterruptsCastingRandomChance: 1
-      hitInterruptsCastingProbabilityMin: 0
-      hitInterruptsCastingProbabilityMax: 90
-      playEffect: 0
-      addToEffectText: 0
-      effectText: '#Potency#'
-      effectTextDuration: 5
-      effectTextColour: {r: 0.9811321, g: 0, b: 0, a: 0}
-      addToEffectLog: 0
-      effectLogText: '#Origin# #Ability# inflicted #Potency# Damage on #Target#'
-      enableRemoveEffect: 0
-      dispellable: 0
-      specificPrepareTimeRequried: 0
-      specificPrepareTimeArithmeticComparison: 0
-      prepareTimeToActivate: 1
-      requireSplashToActivate: 1
-      removeEffectAddToEffectText: 0
-      removeEffectText: 
-      removeEffectTextDuration: 0
-      removeEffectTextColour: {r: 0, g: 0, b: 0, a: 0}
-      removeEffectAddToEffectLog: 0
-      removeEffectLogText: 
-      showNonActivationReason: 0
-      effectGraphic:
-        refVal: {fileID: 1321021649640250, guid: 7e6c183d69bb7084c894a627bd43db61,
-          type: 3}
-        refName: FireImpact
-        refUpdateDateTime: 08/05/2021 10:06:20
-      effectChildGraphic:
-        refVal: {fileID: 0}
-        refName: 
-        refUpdateDateTime: 
-      scaleEffectGraphic: 0
-      effectGraphicScale: 1
-      effectGraphicOffset: {x: 0, y: 1.21, z: 0}
-      effectGraphicForwardOffset: 0
-      effectGraphicRightOffset: 0
-      effectGraphicDelay: 0
-      effectGraphicDuration: 2
-      effectFollowTarget: 1
-      effectOnHitPosition: 0
+      effectOnHitPosition: 1
     onEnter: 1
     onStay: 0
     onStayInterval: 0.3
