@@ -1158,7 +1158,7 @@ RectTransform:
   m_GameObject: {fileID: 951068877}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 906737474}
@@ -3522,7 +3522,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0.089999914}
   m_SizeDelta: {x: 0, y: -1.6812072}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3685,6 +3685,75 @@ Transform:
   m_Father: {fileID: 4047658755279236594}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &202891808072577047
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 392526430438766909, guid: 37ae3bb6625f5de4db6913c5ac988353,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 392526430438766909, guid: 37ae3bb6625f5de4db6913c5ac988353,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.199896
+      objectReference: {fileID: 0}
+    - target: {fileID: 392526430438766909, guid: 37ae3bb6625f5de4db6913c5ac988353,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000011920929
+      objectReference: {fileID: 0}
+    - target: {fileID: 392526430438766909, guid: 37ae3bb6625f5de4db6913c5ac988353,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.6948974
+      objectReference: {fileID: 0}
+    - target: {fileID: 392526430438766909, guid: 37ae3bb6625f5de4db6913c5ac988353,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 392526430438766909, guid: 37ae3bb6625f5de4db6913c5ac988353,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 392526430438766909, guid: 37ae3bb6625f5de4db6913c5ac988353,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 392526430438766909, guid: 37ae3bb6625f5de4db6913c5ac988353,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 392526430438766909, guid: 37ae3bb6625f5de4db6913c5ac988353,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 392526430438766909, guid: 37ae3bb6625f5de4db6913c5ac988353,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 392526430438766909, guid: 37ae3bb6625f5de4db6913c5ac988353,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1700508615011275307, guid: 37ae3bb6625f5de4db6913c5ac988353,
+        type: 3}
+      propertyPath: m_Name
+      value: WP_Sword_R
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 37ae3bb6625f5de4db6913c5ac988353, type: 3}
 --- !u!1 &225453712047086753
 GameObject:
   m_ObjectHideFlags: 0
@@ -5774,7 +5843,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0.089999914}
   m_SizeDelta: {x: 0, y: -1.6812072}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -17024,7 +17093,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!136 &3283793308338919038
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -27705,7 +27774,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 444449792760219707}
-  m_LocalRotation: {x: -0.035205364, y: 0.1176726, z: -0.0001269201, w: 0.9924282}
+  m_LocalRotation: {x: -0.035205368, y: 0.1176726, z: -0.00012692012, w: 0.9924282}
   m_LocalPosition: {x: -0.033624, y: -0.010029, z: 0.028397998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -27771,7 +27840,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2985832683903917430}
-  m_LocalRotation: {x: -0.0000002480804, y: 0.020497778, z: -0.029320722, w: 0.99935985}
+  m_LocalRotation: {x: -0.00000024808043, y: 0.020497778, z: -0.029320724, w: 0.99935985}
   m_LocalPosition: {x: -0.104638994, y: 0.006148, z: 0.004298}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -27827,7 +27896,7 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0.10000038}
   m_SizeDelta: {x: 0, y: -16.647171}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -38879,7 +38948,7 @@ MonoBehaviour:
   - tagBefore: 'Friendly '
     tagAfter: Enemy
   toolbarStateManagerSelection: 0
-  toolbarStateManagerGeneralSettingsSelection: 3
+  toolbarStateManagerGeneralSettingsSelection: 1
   toolbarStateManagerEffectWatcherSettingsSelection: 0
   showHelpInformation: 1
   updateEditorAtRunTime: 0
@@ -39347,7 +39416,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4923247106255791785
 Transform:
   m_ObjectHideFlags: 0
@@ -39355,7 +39424,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6142340654765688100}
-  m_LocalRotation: {x: -0.00000021788436, y: 0.020497806, z: -0.029320745, w: 0.99935985}
+  m_LocalRotation: {x: -0.00000021788438, y: 0.020497806, z: -0.029320747, w: 0.99935985}
   m_LocalPosition: {x: -0.103252, y: 0.003211, z: -0.018755}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -39530,7 +39599,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 824099860257370482}
-  m_LocalRotation: {x: 0.061150137, y: 0.06843325, z: -0.042195585, w: 0.99488544}
+  m_LocalRotation: {x: 0.06115014, y: 0.06843325, z: -0.04219559, w: 0.99488544}
   m_LocalPosition: {x: 0.025178, y: -0.009366999, z: 0.025137}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -40692,7 +40761,7 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0.10000038}
   m_SizeDelta: {x: 0, y: -16.647171}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -72843,17 +72912,17 @@ MonoBehaviour:
   toolbarControllerManagerAbilityGroupSettingsSelection: 0
   toolbarControllerManagerWeaponSettingsSelection: 2
   toolbarAbiltyManagerSelection: 0
-  toolbarAbilityManagerGeneralSettingsSelection: 2
+  toolbarAbilityManagerGeneralSettingsSelection: 1
   toolbarAbilityManagerPositionTravelSettingsSelection: 0
   toolbarAbilityManagerCollisionImpactSettingsSelection: 2
-  toolbarAbilityManagerAnimationSettingsSelection: 0
+  toolbarAbilityManagerAnimationSettingsSelection: 1
   CurrentIconUI: 23
   iconUISideListFilterChoice: 2
   iconUISideListPreviousFilterChoice: 2
   CurrentAbilityGroup: 0
   CurrentWeaponIndex: 0
   CurrentAI: 0
-  CurrentAbility: 9
+  CurrentAbility: 4
   abilitySideListFilterChoice: 0
   abilitySideListPreviousFilterChoice: 0
   DraggableMode: 0

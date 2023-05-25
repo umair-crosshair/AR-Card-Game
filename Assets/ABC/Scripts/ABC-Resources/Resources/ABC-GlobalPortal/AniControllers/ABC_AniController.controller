@@ -1126,7 +1126,8 @@ AnimatorStateTransition:
     m_ConditionEvent: Move
     m_EventTreshold: 0.1
   m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: -8877939100821412274, guid: 3ad50df105ee4884d9e61757c7d33b7b, type: 2}
+  m_DstState: {fileID: -8877939100821412274, guid: 3ad50df105ee4884d9e61757c7d33b7b,
+    type: 2}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0

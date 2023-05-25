@@ -72,9 +72,10 @@ MonoBehaviour:
     weaponGraphics:
     - foldOut: 1
       weaponObjMainGraphic:
-        refVal: {fileID: 7281532619583613859, guid: 9e13db1fb48977d408673c0bdb4884d6, type: 3}
-        refName: Sword
-        refUpdateDateTime: 08/06/2021 14:49:10
+        refVal: {fileID: 7281532619583613859, guid: 3a84417a3060c9a4b8a401731f885cff,
+          type: 3}
+        refName: Sword 1
+        refUpdateDateTime: 5/24/2023 11:52:07 AM
       weaponObjSubGraphic:
         refVal: {fileID: 0}
         refName: 
@@ -201,8 +202,6 @@ MonoBehaviour:
       animationRunnerOnScrollGraphic: 0
       animationRunnerOnWeapon: 0
     overrideWithGCCharacterState: 0
-    gcEquipState: {fileID: 0}
-    gcUnEquipState: {fileID: 0}
     useWeaponEquipAnimations: 1
     weaponEnableAnimationRunnerClip:
       refVal: {fileID: 7400000, guid: 5e3603c10493ef743a2a6f6615eb5083, type: 2}
@@ -349,7 +348,8 @@ MonoBehaviour:
     weaponParryAnimateOnScrollGraphic: 0
     weaponParryAnimateOnWeapon: 0
     weaponParryEffectGraphic:
-      refVal: {fileID: 6763794635688724990, guid: bd236ca3f25f4da4f8810e1cbad5892c, type: 3}
+      refVal: {fileID: 6763794635688724990, guid: bd236ca3f25f4da4f8810e1cbad5892c,
+        type: 3}
       refName: ParryImpact
       refUpdateDateTime: 11/08/2020 16:23:40
     weaponParryEffectSubGraphic:
@@ -389,7 +389,8 @@ MonoBehaviour:
     activateAbilityAfterBlockListChoice: 0
     useWeaponBlockAesthetics: 1
     weaponBlockEffectGraphic:
-      refVal: {fileID: 6263520613801824659, guid: f85652c7b9b423d4cb8ac9e80baf0c9d, type: 3}
+      refVal: {fileID: 6263520613801824659, guid: f85652c7b9b423d4cb8ac9e80baf0c9d,
+        type: 3}
       refName: ShieldBlockImpact
       refUpdateDateTime: 10/08/2020 16:48:32
     weaponBlockEffectSubGraphic:
@@ -754,7 +755,6 @@ MonoBehaviour:
     boomerangMode: 0
     boomerangDelay: 0
     effects: []
-    gcEffectActionList: {fileID: 0}
     onEnter: 1
     onStay: 0
     onStayInterval: 0.3
@@ -850,7 +850,6 @@ MonoBehaviour:
     travelDurationTime: 0
     travelDurationStopSuddenly: 0
     useInitiatingAesthetics: 0
-    gcInitiatingActionList: {fileID: 0}
     initiatingAnimateOnEntity: 1
     initiatingAnimateOnScrollGraphic: 0
     initiatingAnimateOnWeapon: 0
@@ -961,7 +960,6 @@ MonoBehaviour:
     distanceInteruptPreparation: 0
     showPrepareTimeOnGUI: 0
     usePreparingAesthetics: 0
-    gcPreparingActionList: {fileID: 0}
     preparingAnimateOnEntity: 1
     preparingAnimateOnScrollGraphic: 0
     preparingAnimateOnWeapon: 0
@@ -1409,7 +1407,6 @@ MonoBehaviour:
     boomerangMode: 0
     boomerangDelay: 0
     effects: []
-    gcEffectActionList: {fileID: 0}
     onEnter: 1
     onStay: 0
     onStayInterval: 0.3
@@ -1505,7 +1502,6 @@ MonoBehaviour:
     travelDurationTime: 0
     travelDurationStopSuddenly: 0
     useInitiatingAesthetics: 0
-    gcInitiatingActionList: {fileID: 0}
     initiatingAnimateOnEntity: 1
     initiatingAnimateOnScrollGraphic: 0
     initiatingAnimateOnWeapon: 0
@@ -1616,7 +1612,6 @@ MonoBehaviour:
     distanceInteruptPreparation: 0
     showPrepareTimeOnGUI: 0
     usePreparingAesthetics: 0
-    gcPreparingActionList: {fileID: 0}
     preparingAnimateOnEntity: 1
     preparingAnimateOnScrollGraphic: 0
     preparingAnimateOnWeapon: 0
@@ -2064,7 +2059,6 @@ MonoBehaviour:
     boomerangMode: 0
     boomerangDelay: 0
     effects: []
-    gcEffectActionList: {fileID: 0}
     onEnter: 1
     onStay: 0
     onStayInterval: 0.3
@@ -2160,7 +2154,6 @@ MonoBehaviour:
     travelDurationTime: 0
     travelDurationStopSuddenly: 0
     useInitiatingAesthetics: 0
-    gcInitiatingActionList: {fileID: 0}
     initiatingAnimateOnEntity: 1
     initiatingAnimateOnScrollGraphic: 0
     initiatingAnimateOnWeapon: 0
@@ -2271,7 +2264,6 @@ MonoBehaviour:
     distanceInteruptPreparation: 0
     showPrepareTimeOnGUI: 0
     usePreparingAesthetics: 0
-    gcPreparingActionList: {fileID: 0}
     preparingAnimateOnEntity: 1
     preparingAnimateOnScrollGraphic: 0
     preparingAnimateOnWeapon: 0
@@ -2806,7 +2798,6 @@ MonoBehaviour:
       effectGraphicDuration: 2
       effectFollowTarget: 0
       effectOnHitPosition: 1
-    gcEffectActionList: {fileID: 0}
     onEnter: 1
     onStay: 0
     onStayInterval: 0.3
@@ -2902,7 +2893,6 @@ MonoBehaviour:
     travelDurationTime: 0
     travelDurationStopSuddenly: 0
     useInitiatingAesthetics: 1
-    gcInitiatingActionList: {fileID: 0}
     initiatingAnimateOnEntity: 1
     initiatingAnimateOnScrollGraphic: 0
     initiatingAnimateOnWeapon: 0
@@ -3013,7 +3003,6 @@ MonoBehaviour:
     distanceInteruptPreparation: 0
     showPrepareTimeOnGUI: 0
     usePreparingAesthetics: 0
-    gcPreparingActionList: {fileID: 0}
     preparingAnimateOnEntity: 1
     preparingAnimateOnScrollGraphic: 0
     preparingAnimateOnWeapon: 0
@@ -3715,7 +3704,6 @@ MonoBehaviour:
       effectGraphicDuration: 2
       effectFollowTarget: 0
       effectOnHitPosition: 1
-    gcEffectActionList: {fileID: 0}
     onEnter: 1
     onStay: 0
     onStayInterval: 0.3
@@ -3812,7 +3800,6 @@ MonoBehaviour:
     travelDurationTime: 0
     travelDurationStopSuddenly: 0
     useInitiatingAesthetics: 1
-    gcInitiatingActionList: {fileID: 0}
     initiatingAnimateOnEntity: 1
     initiatingAnimateOnScrollGraphic: 0
     initiatingAnimateOnWeapon: 0
@@ -3923,7 +3910,6 @@ MonoBehaviour:
     distanceInteruptPreparation: 0
     showPrepareTimeOnGUI: 0
     usePreparingAesthetics: 0
-    gcPreparingActionList: {fileID: 0}
     preparingAnimateOnEntity: 1
     preparingAnimateOnScrollGraphic: 0
     preparingAnimateOnWeapon: 0
@@ -4250,7 +4236,7 @@ MonoBehaviour:
     castableDuringHitPrevention: 0
     hitPreventionWontInterruptActivation: 0
     forceActivation: 0
-    forceActivationInterruptCurrentActivation: 0
+    forceActivationInterruptCurrentActivation: 1
     overrideIgnoreAbilityCollision: 0
     overrideWeaponParrying: 0
     overrideWeaponBlocking: 0
@@ -4456,7 +4442,6 @@ MonoBehaviour:
       effectGraphicDuration: 2
       effectFollowTarget: 0
       effectOnHitPosition: 1
-    gcEffectActionList: {fileID: 0}
     onEnter: 1
     onStay: 0
     onStayInterval: 0.3
@@ -4553,7 +4538,6 @@ MonoBehaviour:
     travelDurationTime: 0
     travelDurationStopSuddenly: 0
     useInitiatingAesthetics: 1
-    gcInitiatingActionList: {fileID: 0}
     initiatingAnimateOnEntity: 1
     initiatingAnimateOnScrollGraphic: 0
     initiatingAnimateOnWeapon: 0
@@ -4565,16 +4549,17 @@ MonoBehaviour:
     initiatingAestheticsPositionForwardOffset: 0
     initiatingAestheticsPositionRightOffset: 0
     initiatingAnimationRunnerClip:
-      refVal: {fileID: 7400000, guid: 50ca2bc919c369840b807c4cc23ebe20, type: 2}
-      refName: 1HS_Atk_01
-      refUpdateDateTime: 06/06/2021 14:05:38
+      refVal: {fileID: -7168219488691840090, guid: 3557597fd511649479ddd0babf49c4b9,
+        type: 3}
+      refName: combo_01_1
+      refUpdateDateTime: 5/24/2023 12:44:48 PM
     initiatingAnimationRunnerMask:
       refVal: {fileID: 0}
       refName: 
       refUpdateDateTime: 28/02/2021 14:40:45
     initiatingAnimationRunnerClipSpeed: 1
     initiatingAnimationRunnerClipDelay: 0
-    initiatingAnimationRunnerClipDuration: 1.3
+    initiatingAnimationRunnerClipDuration: 1.4
     initiatingAnimationRunnerOnEntity: 1
     initiatingAnimationRunnerOnScrollGraphic: 0
     initiatingAnimationRunnerOnWeapon: 0
@@ -4597,7 +4582,8 @@ MonoBehaviour:
     moveSelfToTargetInitiatingForwardOffset: 0
     moveSelfToTargetInitiatingRightOffset: 0
     initiatingGraphic:
-      refVal: {fileID: 7773778024426442314, guid: 84dd08f0d5233f642808edc182d4faf0, type: 3}
+      refVal: {fileID: 7773778024426442314, guid: 84dd08f0d5233f642808edc182d4faf0,
+        type: 3}
       refName: WeaponTrail_1
       refUpdateDateTime: 19/03/2021 19:11:58
     initiatingSubGraphic:
@@ -4645,7 +4631,7 @@ MonoBehaviour:
     prepareTime: 0
     ignoreGlobalPrepareTimeAdjustments: 0
     prepareTriggerHoldRequied: 0
-    abilityInitiatingBaseSpeedAdjustment: 240
+    abilityInitiatingBaseSpeedAdjustment: 80
     ignoreGlobalInitiatingSpeedAdjustments: 0
     modifyAbilityInitiatingBaseSpeedByStat: 0
     abilityInitiatingBaseSpeedStatModification:
@@ -4664,7 +4650,6 @@ MonoBehaviour:
     distanceInteruptPreparation: 0
     showPrepareTimeOnGUI: 0
     usePreparingAesthetics: 0
-    gcPreparingActionList: {fileID: 0}
     preparingAnimateOnEntity: 1
     preparingAnimateOnScrollGraphic: 0
     preparingAnimateOnWeapon: 0
@@ -4991,7 +4976,7 @@ MonoBehaviour:
     castableDuringHitPrevention: 0
     hitPreventionWontInterruptActivation: 0
     forceActivation: 0
-    forceActivationInterruptCurrentActivation: 0
+    forceActivationInterruptCurrentActivation: 1
     overrideIgnoreAbilityCollision: 0
     overrideWeaponParrying: 0
     overrideWeaponBlocking: 0
@@ -5197,7 +5182,6 @@ MonoBehaviour:
       effectGraphicDuration: 2
       effectFollowTarget: 0
       effectOnHitPosition: 1
-    gcEffectActionList: {fileID: 0}
     onEnter: 1
     onStay: 0
     onStayInterval: 0.3
@@ -5294,7 +5278,6 @@ MonoBehaviour:
     travelDurationTime: 0
     travelDurationStopSuddenly: 0
     useInitiatingAesthetics: 1
-    gcInitiatingActionList: {fileID: 0}
     initiatingAnimateOnEntity: 1
     initiatingAnimateOnScrollGraphic: 0
     initiatingAnimateOnWeapon: 0
@@ -5306,16 +5289,17 @@ MonoBehaviour:
     initiatingAestheticsPositionForwardOffset: 0
     initiatingAestheticsPositionRightOffset: 0
     initiatingAnimationRunnerClip:
-      refVal: {fileID: 7400000, guid: 303c5a93410c48541852ac4efea1ee2f, type: 2}
-      refName: 1HS_Atk_02
-      refUpdateDateTime: 06/06/2021 14:06:13
+      refVal: {fileID: 621988743821468482, guid: 023f306dbb1b4cd40ac2c78fb9e1e2f9,
+        type: 3}
+      refName: combo_01_2
+      refUpdateDateTime: 5/24/2023 12:44:54 PM
     initiatingAnimationRunnerMask:
       refVal: {fileID: 0}
       refName: 
       refUpdateDateTime: 
-    initiatingAnimationRunnerClipSpeed: 2
+    initiatingAnimationRunnerClipSpeed: 1
     initiatingAnimationRunnerClipDelay: 0
-    initiatingAnimationRunnerClipDuration: 0.6
+    initiatingAnimationRunnerClipDuration: 1.67
     initiatingAnimationRunnerOnEntity: 1
     initiatingAnimationRunnerOnScrollGraphic: 0
     initiatingAnimationRunnerOnWeapon: 0
@@ -5338,7 +5322,8 @@ MonoBehaviour:
     moveSelfToTargetInitiatingForwardOffset: 0
     moveSelfToTargetInitiatingRightOffset: 0
     initiatingGraphic:
-      refVal: {fileID: 7773778024426442314, guid: 84dd08f0d5233f642808edc182d4faf0, type: 3}
+      refVal: {fileID: 7773778024426442314, guid: 84dd08f0d5233f642808edc182d4faf0,
+        type: 3}
       refName: WeaponTrail_1
       refUpdateDateTime: 19/03/2021 19:14:57
     initiatingSubGraphic:
@@ -5386,7 +5371,7 @@ MonoBehaviour:
     prepareTime: 0
     ignoreGlobalPrepareTimeAdjustments: 0
     prepareTriggerHoldRequied: 0
-    abilityInitiatingBaseSpeedAdjustment: 140
+    abilityInitiatingBaseSpeedAdjustment: 80
     ignoreGlobalInitiatingSpeedAdjustments: 0
     modifyAbilityInitiatingBaseSpeedByStat: 0
     abilityInitiatingBaseSpeedStatModification:
@@ -5405,7 +5390,6 @@ MonoBehaviour:
     distanceInteruptPreparation: 0
     showPrepareTimeOnGUI: 0
     usePreparingAesthetics: 0
-    gcPreparingActionList: {fileID: 0}
     preparingAnimateOnEntity: 1
     preparingAnimateOnScrollGraphic: 0
     preparingAnimateOnWeapon: 0
@@ -5732,7 +5716,7 @@ MonoBehaviour:
     castableDuringHitPrevention: 0
     hitPreventionWontInterruptActivation: 0
     forceActivation: 0
-    forceActivationInterruptCurrentActivation: 0
+    forceActivationInterruptCurrentActivation: 1
     overrideIgnoreAbilityCollision: 0
     overrideWeaponParrying: 0
     overrideWeaponBlocking: 0
@@ -5938,7 +5922,6 @@ MonoBehaviour:
       effectGraphicDuration: 2
       effectFollowTarget: 0
       effectOnHitPosition: 1
-    gcEffectActionList: {fileID: 0}
     onEnter: 1
     onStay: 0
     onStayInterval: 0.3
@@ -6035,7 +6018,6 @@ MonoBehaviour:
     travelDurationTime: 0
     travelDurationStopSuddenly: 0
     useInitiatingAesthetics: 1
-    gcInitiatingActionList: {fileID: 0}
     initiatingAnimateOnEntity: 1
     initiatingAnimateOnScrollGraphic: 0
     initiatingAnimateOnWeapon: 0
@@ -6047,16 +6029,17 @@ MonoBehaviour:
     initiatingAestheticsPositionForwardOffset: 0
     initiatingAestheticsPositionRightOffset: 0
     initiatingAnimationRunnerClip:
-      refVal: {fileID: 7400000, guid: 2ec85d4b0d4ca4a4eb2fcb9983f3fd75, type: 2}
-      refName: 1HS_Atk_03
-      refUpdateDateTime: 06/06/2021 14:06:22
+      refVal: {fileID: 8054657191847103693, guid: 6adc1a6e013d79b459795af47a365a8d,
+        type: 3}
+      refName: combo_01_3
+      refUpdateDateTime: 5/24/2023 12:44:59 PM
     initiatingAnimationRunnerMask:
       refVal: {fileID: 0}
       refName: 
       refUpdateDateTime: 
-    initiatingAnimationRunnerClipSpeed: 2
+    initiatingAnimationRunnerClipSpeed: 1
     initiatingAnimationRunnerClipDelay: 0
-    initiatingAnimationRunnerClipDuration: 0.42
+    initiatingAnimationRunnerClipDuration: 1
     initiatingAnimationRunnerOnEntity: 1
     initiatingAnimationRunnerOnScrollGraphic: 0
     initiatingAnimationRunnerOnWeapon: 0
@@ -6079,7 +6062,8 @@ MonoBehaviour:
     moveSelfToTargetInitiatingForwardOffset: 0
     moveSelfToTargetInitiatingRightOffset: 0
     initiatingGraphic:
-      refVal: {fileID: 7773778024426442314, guid: 84dd08f0d5233f642808edc182d4faf0, type: 3}
+      refVal: {fileID: 7773778024426442314, guid: 84dd08f0d5233f642808edc182d4faf0,
+        type: 3}
       refName: WeaponTrail_1
       refUpdateDateTime: 19/03/2021 19:14:07
     initiatingSubGraphic:
@@ -6127,7 +6111,7 @@ MonoBehaviour:
     prepareTime: 0
     ignoreGlobalPrepareTimeAdjustments: 0
     prepareTriggerHoldRequied: 0
-    abilityInitiatingBaseSpeedAdjustment: 140
+    abilityInitiatingBaseSpeedAdjustment: 80
     ignoreGlobalInitiatingSpeedAdjustments: 0
     modifyAbilityInitiatingBaseSpeedByStat: 0
     abilityInitiatingBaseSpeedStatModification:
@@ -6146,7 +6130,6 @@ MonoBehaviour:
     distanceInteruptPreparation: 0
     showPrepareTimeOnGUI: 0
     usePreparingAesthetics: 0
-    gcPreparingActionList: {fileID: 0}
     preparingAnimateOnEntity: 1
     preparingAnimateOnScrollGraphic: 0
     preparingAnimateOnWeapon: 0
@@ -6473,7 +6456,7 @@ MonoBehaviour:
     castableDuringHitPrevention: 0
     hitPreventionWontInterruptActivation: 0
     forceActivation: 0
-    forceActivationInterruptCurrentActivation: 0
+    forceActivationInterruptCurrentActivation: 1
     overrideIgnoreAbilityCollision: 0
     overrideWeaponParrying: 0
     overrideWeaponBlocking: 0
@@ -6679,7 +6662,6 @@ MonoBehaviour:
       effectGraphicDuration: 2
       effectFollowTarget: 0
       effectOnHitPosition: 1
-    gcEffectActionList: {fileID: 0}
     onEnter: 1
     onStay: 0
     onStayInterval: 0.3
@@ -6776,7 +6758,6 @@ MonoBehaviour:
     travelDurationTime: 0
     travelDurationStopSuddenly: 0
     useInitiatingAesthetics: 1
-    gcInitiatingActionList: {fileID: 0}
     initiatingAnimateOnEntity: 1
     initiatingAnimateOnScrollGraphic: 0
     initiatingAnimateOnWeapon: 0
@@ -6788,16 +6769,17 @@ MonoBehaviour:
     initiatingAestheticsPositionForwardOffset: 0
     initiatingAestheticsPositionRightOffset: 0
     initiatingAnimationRunnerClip:
-      refVal: {fileID: 7400000, guid: 191bad04b24cd8342bc5a9105e15ec22, type: 2}
-      refName: 1HS_Atk_04
-      refUpdateDateTime: 06/06/2021 14:06:33
+      refVal: {fileID: -6708679982967935980, guid: d874393671ec99c479951fdfee274c84,
+        type: 3}
+      refName: combo_01_4
+      refUpdateDateTime: 5/24/2023 11:58:32 AM
     initiatingAnimationRunnerMask:
       refVal: {fileID: 0}
       refName: 
       refUpdateDateTime: 
     initiatingAnimationRunnerClipSpeed: 1
     initiatingAnimationRunnerClipDelay: 0
-    initiatingAnimationRunnerClipDuration: 0.5
+    initiatingAnimationRunnerClipDuration: 1.5
     initiatingAnimationRunnerOnEntity: 1
     initiatingAnimationRunnerOnScrollGraphic: 0
     initiatingAnimationRunnerOnWeapon: 0
@@ -6820,7 +6802,8 @@ MonoBehaviour:
     moveSelfToTargetInitiatingForwardOffset: 0
     moveSelfToTargetInitiatingRightOffset: 0
     initiatingGraphic:
-      refVal: {fileID: 7773778024426442314, guid: 84dd08f0d5233f642808edc182d4faf0, type: 3}
+      refVal: {fileID: 7773778024426442314, guid: 84dd08f0d5233f642808edc182d4faf0,
+        type: 3}
       refName: WeaponTrail_1
       refUpdateDateTime: 19/03/2021 19:14:58
     initiatingSubGraphic:
@@ -6868,7 +6851,7 @@ MonoBehaviour:
     prepareTime: 0
     ignoreGlobalPrepareTimeAdjustments: 0
     prepareTriggerHoldRequied: 0
-    abilityInitiatingBaseSpeedAdjustment: 215
+    abilityInitiatingBaseSpeedAdjustment: 80
     ignoreGlobalInitiatingSpeedAdjustments: 0
     modifyAbilityInitiatingBaseSpeedByStat: 0
     abilityInitiatingBaseSpeedStatModification:
@@ -6887,7 +6870,6 @@ MonoBehaviour:
     distanceInteruptPreparation: 0
     showPrepareTimeOnGUI: 0
     usePreparingAesthetics: 0
-    gcPreparingActionList: {fileID: 0}
     preparingAnimateOnEntity: 1
     preparingAnimateOnScrollGraphic: 0
     preparingAnimateOnWeapon: 0
@@ -7504,7 +7486,6 @@ MonoBehaviour:
       effectGraphicDuration: 2
       effectFollowTarget: 0
       effectOnHitPosition: 1
-    gcEffectActionList: {fileID: 0}
     onEnter: 1
     onStay: 0
     onStayInterval: 0.3
@@ -7601,7 +7582,6 @@ MonoBehaviour:
     travelDurationTime: 0
     travelDurationStopSuddenly: 0
     useInitiatingAesthetics: 1
-    gcInitiatingActionList: {fileID: 0}
     initiatingAnimateOnEntity: 1
     initiatingAnimateOnScrollGraphic: 0
     initiatingAnimateOnWeapon: 0
@@ -7712,7 +7692,6 @@ MonoBehaviour:
     distanceInteruptPreparation: 0
     showPrepareTimeOnGUI: 0
     usePreparingAesthetics: 0
-    gcPreparingActionList: {fileID: 0}
     preparingAnimateOnEntity: 1
     preparingAnimateOnScrollGraphic: 0
     preparingAnimateOnWeapon: 0
@@ -8245,7 +8224,6 @@ MonoBehaviour:
       effectGraphicDuration: 2
       effectFollowTarget: 0
       effectOnHitPosition: 1
-    gcEffectActionList: {fileID: 0}
     onEnter: 1
     onStay: 0
     onStayInterval: 0.3
@@ -8360,7 +8338,6 @@ MonoBehaviour:
     travelDurationTime: 0
     travelDurationStopSuddenly: 0
     useInitiatingAesthetics: 1
-    gcInitiatingActionList: {fileID: 0}
     initiatingAnimateOnEntity: 1
     initiatingAnimateOnScrollGraphic: 0
     initiatingAnimateOnWeapon: 0
@@ -8404,7 +8381,8 @@ MonoBehaviour:
     moveSelfToTargetInitiatingForwardOffset: 0
     moveSelfToTargetInitiatingRightOffset: 0
     initiatingGraphic:
-      refVal: {fileID: 7773778024426442314, guid: 4387febc3c3971b4c8055c830d2ebd65, type: 3}
+      refVal: {fileID: 7773778024426442314, guid: 4387febc3c3971b4c8055c830d2ebd65,
+        type: 3}
       refName: WeaponTrail_1_Orange
       refUpdateDateTime: 19/03/2021 19:14:08
     initiatingSubGraphic:
@@ -8471,7 +8449,6 @@ MonoBehaviour:
     distanceInteruptPreparation: 0
     showPrepareTimeOnGUI: 0
     usePreparingAesthetics: 0
-    gcPreparingActionList: {fileID: 0}
     preparingAnimateOnEntity: 1
     preparingAnimateOnScrollGraphic: 0
     preparingAnimateOnWeapon: 0
@@ -9088,7 +9065,6 @@ MonoBehaviour:
       effectGraphicDuration: 2
       effectFollowTarget: 0
       effectOnHitPosition: 1
-    gcEffectActionList: {fileID: 0}
     onEnter: 1
     onStay: 0
     onStayInterval: 0.3
@@ -9185,7 +9161,6 @@ MonoBehaviour:
     travelDurationTime: 0
     travelDurationStopSuddenly: 0
     useInitiatingAesthetics: 1
-    gcInitiatingActionList: {fileID: 0}
     initiatingAnimateOnEntity: 1
     initiatingAnimateOnScrollGraphic: 0
     initiatingAnimateOnWeapon: 0
@@ -9296,7 +9271,6 @@ MonoBehaviour:
     distanceInteruptPreparation: 0
     showPrepareTimeOnGUI: 0
     usePreparingAesthetics: 0
-    gcPreparingActionList: {fileID: 0}
     preparingAnimateOnEntity: 1
     preparingAnimateOnScrollGraphic: 0
     preparingAnimateOnWeapon: 0
