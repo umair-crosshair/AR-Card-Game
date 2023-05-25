@@ -4163,7 +4163,7 @@ MonoBehaviour:
     enableAbilityActivationLinks: 0
     activationLinkAbilityIDs: 03000000
     enableAbilityTriggerLinks: 1
-    triggerLinkAbilityIDs: 45d9b100879db2005ee1b1006ce0b100b8d0b10092ddb100
+    triggerLinkAbilityIDs: 45d9b100879db2005ee1b100
     enableAbilityEffectLinks: 0
     effectLinkAbilityIDs: 
     abilityIgnoreTag:
@@ -4339,7 +4339,7 @@ MonoBehaviour:
     abilityRecast: 0.85
     startRecastAfterAbilityEnd: 0
     travelSpeed: 11655493
-    duration: 0.15
+    duration: 0.1
     abilityToggle: 0
     canCastWhenToggled: 1
     repeatInitiatingAnimationWhilstToggled: 1
@@ -4357,91 +4357,7 @@ MonoBehaviour:
     bouncePositionRightOffset: 0
     boomerangMode: 0
     boomerangDelay: 0
-    effects:
-    - effectPool: []
-      foldOut: 0
-      globalEffect: {fileID: 11400000, guid: 0b73fae9043928c4a8e6ca5d28f56528, type: 2}
-      effectAbilityID: 11655204
-      effectID: 11657262
-      effectName: 
-      potency: 10
-      modifyPotencyUsingStats: 0
-      potencyStatModifications: []
-      miscellaneousProperty: 
-      miscellaneousAltProperty: 
-      activateOn: 0
-      eventType: 0
-      delay: 0
-      effectDuration: 2
-      allowDuplicateEffectActivation: 0
-      limitNoOfDuplicateEffectActivations: 0
-      maxNoDuplicateEffectActivations: 2
-      repeatEffect: 0
-      repeatDuration: 10
-      repeatInterval: 2
-      repeatCount: 0
-      repeatAesthetics: 1
-      enableEffectActivationRange: 0
-      effectActivationRange: 5
-      effectIgnoreTag: []
-      effectIgnoreTagCheckObject: 0
-      effectIgnoreTagCheckEntity: 0
-      effectRequiredTag: []
-      effectRequiredTagCheckObject: 0
-      effectRequiredTagCheckEntity: 0
-      useProjectileForActivationRange: 1
-      effectRandomChance: 0
-      effectRandomChanceProbabilityMin: 0
-      effectRandomChanceProbabilityMax: 100
-      hitStopsMovement: 1
-      hitStopsMovementRandomChance: 0
-      hitStopsMovementProbabilityMin: 0
-      hitStopsMovementProbabilityMax: 100
-      hitPreventsCasting: 0
-      hitPreventsCastingRandomChance: 0
-      hitPreventsCastingProbabilityMin: 0
-      hitPreventsCastingProbabilityMax: 100
-      hitInterruptsCasting: 0
-      hitInterruptsCastingRandomChance: 0
-      hitInterruptsCastingProbabilityMin: 0
-      hitInterruptsCastingProbabilityMax: 100
-      playEffect: 1
-      addToEffectText: 1
-      effectText: 
-      effectTextDuration: 3
-      effectTextColour: {r: 1, g: 1, b: 1, a: 1}
-      addToEffectLog: 1
-      effectLogText: 
-      enableRemoveEffect: 1
-      dispellable: 0
-      specificPrepareTimeRequried: 0
-      specificPrepareTimeArithmeticComparison: 0
-      prepareTimeToActivate: 1
-      requireSplashToActivate: 0
-      removeEffectAddToEffectText: 1
-      removeEffectText: 
-      removeEffectTextDuration: 3
-      removeEffectTextColour: {r: 1, g: 1, b: 1, a: 1}
-      removeEffectAddToEffectLog: 1
-      removeEffectLogText: 
-      showNonActivationReason: 1
-      effectGraphic:
-        refVal: {fileID: 0}
-        refName: 
-        refUpdateDateTime: 
-      effectChildGraphic:
-        refVal: {fileID: 0}
-        refName: 
-        refUpdateDateTime: 
-      scaleEffectGraphic: 0
-      effectGraphicScale: 1
-      effectGraphicOffset: {x: 0, y: 0, z: 0}
-      effectGraphicForwardOffset: 0
-      effectGraphicRightOffset: 0
-      effectGraphicDelay: 0
-      effectGraphicDuration: 2
-      effectFollowTarget: 0
-      effectOnHitPosition: 1
+    effects: []
     onEnter: 1
     onStay: 0
     onStayInterval: 0.3
@@ -5079,7 +4995,7 @@ MonoBehaviour:
     abilityRecast: 0.85
     startRecastAfterAbilityEnd: 0
     travelSpeed: 11655493
-    duration: 0.16
+    duration: 0.39
     abilityToggle: 0
     canCastWhenToggled: 1
     repeatInitiatingAnimationWhilstToggled: 1
@@ -5097,91 +5013,7 @@ MonoBehaviour:
     bouncePositionRightOffset: 0
     boomerangMode: 0
     boomerangDelay: 0
-    effects:
-    - effectPool: []
-      foldOut: 0
-      globalEffect: {fileID: 11400000, guid: 0b73fae9043928c4a8e6ca5d28f56528, type: 2}
-      effectAbilityID: 11655493
-      effectID: 1165857
-      effectName: 
-      potency: 10
-      modifyPotencyUsingStats: 0
-      potencyStatModifications: []
-      miscellaneousProperty: 
-      miscellaneousAltProperty: 
-      activateOn: 0
-      eventType: 0
-      delay: 0
-      effectDuration: 2
-      allowDuplicateEffectActivation: 0
-      limitNoOfDuplicateEffectActivations: 0
-      maxNoDuplicateEffectActivations: 2
-      repeatEffect: 0
-      repeatDuration: 10
-      repeatInterval: 2
-      repeatCount: 0
-      repeatAesthetics: 1
-      enableEffectActivationRange: 0
-      effectActivationRange: 5
-      effectIgnoreTag: []
-      effectIgnoreTagCheckObject: 0
-      effectIgnoreTagCheckEntity: 0
-      effectRequiredTag: []
-      effectRequiredTagCheckObject: 0
-      effectRequiredTagCheckEntity: 0
-      useProjectileForActivationRange: 1
-      effectRandomChance: 0
-      effectRandomChanceProbabilityMin: 0
-      effectRandomChanceProbabilityMax: 100
-      hitStopsMovement: 1
-      hitStopsMovementRandomChance: 0
-      hitStopsMovementProbabilityMin: 0
-      hitStopsMovementProbabilityMax: 100
-      hitPreventsCasting: 0
-      hitPreventsCastingRandomChance: 0
-      hitPreventsCastingProbabilityMin: 0
-      hitPreventsCastingProbabilityMax: 100
-      hitInterruptsCasting: 0
-      hitInterruptsCastingRandomChance: 0
-      hitInterruptsCastingProbabilityMin: 0
-      hitInterruptsCastingProbabilityMax: 100
-      playEffect: 1
-      addToEffectText: 1
-      effectText: 
-      effectTextDuration: 3
-      effectTextColour: {r: 1, g: 1, b: 1, a: 1}
-      addToEffectLog: 1
-      effectLogText: 
-      enableRemoveEffect: 1
-      dispellable: 0
-      specificPrepareTimeRequried: 0
-      specificPrepareTimeArithmeticComparison: 0
-      prepareTimeToActivate: 1
-      requireSplashToActivate: 0
-      removeEffectAddToEffectText: 1
-      removeEffectText: 
-      removeEffectTextDuration: 3
-      removeEffectTextColour: {r: 1, g: 1, b: 1, a: 1}
-      removeEffectAddToEffectLog: 1
-      removeEffectLogText: 
-      showNonActivationReason: 1
-      effectGraphic:
-        refVal: {fileID: 0}
-        refName: 
-        refUpdateDateTime: 
-      effectChildGraphic:
-        refVal: {fileID: 0}
-        refName: 
-        refUpdateDateTime: 
-      scaleEffectGraphic: 0
-      effectGraphicScale: 1
-      effectGraphicOffset: {x: 0, y: 0, z: 0}
-      effectGraphicForwardOffset: 0
-      effectGraphicRightOffset: 0
-      effectGraphicDelay: 0
-      effectGraphicDuration: 2
-      effectFollowTarget: 0
-      effectOnHitPosition: 1
+    effects: []
     onEnter: 1
     onStay: 0
     onStayInterval: 0.3
@@ -5819,7 +5651,7 @@ MonoBehaviour:
     abilityRecast: 0.85
     startRecastAfterAbilityEnd: 0
     travelSpeed: 11655493
-    duration: 0.16
+    duration: 0.1
     abilityToggle: 0
     canCastWhenToggled: 1
     repeatInitiatingAnimationWhilstToggled: 1
@@ -5837,91 +5669,7 @@ MonoBehaviour:
     bouncePositionRightOffset: 0
     boomerangMode: 0
     boomerangDelay: 0
-    effects:
-    - effectPool: []
-      foldOut: 0
-      globalEffect: {fileID: 11400000, guid: 0b73fae9043928c4a8e6ca5d28f56528, type: 2}
-      effectAbilityID: 11655493
-      effectID: 1165857
-      effectName: 
-      potency: 10
-      modifyPotencyUsingStats: 0
-      potencyStatModifications: []
-      miscellaneousProperty: 
-      miscellaneousAltProperty: 
-      activateOn: 0
-      eventType: 0
-      delay: 0
-      effectDuration: 2
-      allowDuplicateEffectActivation: 0
-      limitNoOfDuplicateEffectActivations: 0
-      maxNoDuplicateEffectActivations: 2
-      repeatEffect: 0
-      repeatDuration: 10
-      repeatInterval: 2
-      repeatCount: 0
-      repeatAesthetics: 1
-      enableEffectActivationRange: 0
-      effectActivationRange: 5
-      effectIgnoreTag: []
-      effectIgnoreTagCheckObject: 0
-      effectIgnoreTagCheckEntity: 0
-      effectRequiredTag: []
-      effectRequiredTagCheckObject: 0
-      effectRequiredTagCheckEntity: 0
-      useProjectileForActivationRange: 1
-      effectRandomChance: 0
-      effectRandomChanceProbabilityMin: 0
-      effectRandomChanceProbabilityMax: 100
-      hitStopsMovement: 1
-      hitStopsMovementRandomChance: 0
-      hitStopsMovementProbabilityMin: 0
-      hitStopsMovementProbabilityMax: 100
-      hitPreventsCasting: 0
-      hitPreventsCastingRandomChance: 0
-      hitPreventsCastingProbabilityMin: 0
-      hitPreventsCastingProbabilityMax: 100
-      hitInterruptsCasting: 0
-      hitInterruptsCastingRandomChance: 0
-      hitInterruptsCastingProbabilityMin: 0
-      hitInterruptsCastingProbabilityMax: 100
-      playEffect: 1
-      addToEffectText: 1
-      effectText: 
-      effectTextDuration: 3
-      effectTextColour: {r: 1, g: 1, b: 1, a: 1}
-      addToEffectLog: 1
-      effectLogText: 
-      enableRemoveEffect: 1
-      dispellable: 0
-      specificPrepareTimeRequried: 0
-      specificPrepareTimeArithmeticComparison: 0
-      prepareTimeToActivate: 1
-      requireSplashToActivate: 0
-      removeEffectAddToEffectText: 1
-      removeEffectText: 
-      removeEffectTextDuration: 3
-      removeEffectTextColour: {r: 1, g: 1, b: 1, a: 1}
-      removeEffectAddToEffectLog: 1
-      removeEffectLogText: 
-      showNonActivationReason: 1
-      effectGraphic:
-        refVal: {fileID: 0}
-        refName: 
-        refUpdateDateTime: 
-      effectChildGraphic:
-        refVal: {fileID: 0}
-        refName: 
-        refUpdateDateTime: 
-      scaleEffectGraphic: 0
-      effectGraphicScale: 1
-      effectGraphicOffset: {x: 0, y: 0, z: 0}
-      effectGraphicForwardOffset: 0
-      effectGraphicRightOffset: 0
-      effectGraphicDelay: 0
-      effectGraphicDuration: 2
-      effectFollowTarget: 0
-      effectOnHitPosition: 1
+    effects: []
     onEnter: 1
     onStay: 0
     onStayInterval: 0.3
@@ -6577,91 +6325,7 @@ MonoBehaviour:
     bouncePositionRightOffset: 0
     boomerangMode: 0
     boomerangDelay: 0
-    effects:
-    - effectPool: []
-      foldOut: 0
-      globalEffect: {fileID: 11400000, guid: 0b73fae9043928c4a8e6ca5d28f56528, type: 2}
-      effectAbilityID: 11657566
-      effectID: 11658319
-      effectName: 
-      potency: 10
-      modifyPotencyUsingStats: 0
-      potencyStatModifications: []
-      miscellaneousProperty: 
-      miscellaneousAltProperty: 
-      activateOn: 0
-      eventType: 0
-      delay: 0
-      effectDuration: 2
-      allowDuplicateEffectActivation: 0
-      limitNoOfDuplicateEffectActivations: 0
-      maxNoDuplicateEffectActivations: 2
-      repeatEffect: 0
-      repeatDuration: 10
-      repeatInterval: 2
-      repeatCount: 0
-      repeatAesthetics: 1
-      enableEffectActivationRange: 0
-      effectActivationRange: 5
-      effectIgnoreTag: []
-      effectIgnoreTagCheckObject: 0
-      effectIgnoreTagCheckEntity: 0
-      effectRequiredTag: []
-      effectRequiredTagCheckObject: 0
-      effectRequiredTagCheckEntity: 0
-      useProjectileForActivationRange: 1
-      effectRandomChance: 0
-      effectRandomChanceProbabilityMin: 0
-      effectRandomChanceProbabilityMax: 100
-      hitStopsMovement: 1
-      hitStopsMovementRandomChance: 0
-      hitStopsMovementProbabilityMin: 0
-      hitStopsMovementProbabilityMax: 100
-      hitPreventsCasting: 0
-      hitPreventsCastingRandomChance: 0
-      hitPreventsCastingProbabilityMin: 0
-      hitPreventsCastingProbabilityMax: 100
-      hitInterruptsCasting: 0
-      hitInterruptsCastingRandomChance: 0
-      hitInterruptsCastingProbabilityMin: 0
-      hitInterruptsCastingProbabilityMax: 100
-      playEffect: 1
-      addToEffectText: 1
-      effectText: 
-      effectTextDuration: 3
-      effectTextColour: {r: 1, g: 1, b: 1, a: 1}
-      addToEffectLog: 1
-      effectLogText: 
-      enableRemoveEffect: 1
-      dispellable: 0
-      specificPrepareTimeRequried: 0
-      specificPrepareTimeArithmeticComparison: 0
-      prepareTimeToActivate: 1
-      requireSplashToActivate: 0
-      removeEffectAddToEffectText: 1
-      removeEffectText: 
-      removeEffectTextDuration: 3
-      removeEffectTextColour: {r: 1, g: 1, b: 1, a: 1}
-      removeEffectAddToEffectLog: 1
-      removeEffectLogText: 
-      showNonActivationReason: 1
-      effectGraphic:
-        refVal: {fileID: 0}
-        refName: 
-        refUpdateDateTime: 
-      effectChildGraphic:
-        refVal: {fileID: 0}
-        refName: 
-        refUpdateDateTime: 
-      scaleEffectGraphic: 0
-      effectGraphicScale: 1
-      effectGraphicOffset: {x: 0, y: 0, z: 0}
-      effectGraphicForwardOffset: 0
-      effectGraphicRightOffset: 0
-      effectGraphicDelay: 0
-      effectGraphicDuration: 2
-      effectFollowTarget: 0
-      effectOnHitPosition: 1
+    effects: []
     onEnter: 1
     onStay: 0
     onStayInterval: 0.3
@@ -7105,7 +6769,7 @@ MonoBehaviour:
     assignedAbilityGroupIDs: 00000000
     abilityGroupListChoice: 0
     assignedAbilityGroupNames: []
-    inspectorParentAbilityListChoice: 3
+    inspectorParentAbilityListChoice: 0
     parentAbilityID: 11655204
     showChildrenInInspector: 0
     description: Sword combo attack which inflicts damage on the enemy hit
@@ -7115,7 +6779,7 @@ MonoBehaviour:
       refUpdateDateTime: 24/04/2021 09:50:31
     loggingEnabled: 1
     globalAbilityOverrideEnableStatus: 0
-    abilityEnabled: 1
+    abilityEnabled: 0
     enableDuration: 0
     enableAfterEvent: 0
     enableAfterAbilityIDsActivated: 
@@ -7927,7 +7591,7 @@ MonoBehaviour:
     assignedAbilityGroupIDs: 00000000
     abilityGroupListChoice: 0
     assignedAbilityGroupNames: []
-    inspectorParentAbilityListChoice: 3
+    inspectorParentAbilityListChoice: 0
     parentAbilityID: 11655204
     showChildrenInInspector: 0
     description: Sword combo attack which inflicts damage on the enemy hit
@@ -7937,7 +7601,7 @@ MonoBehaviour:
       refUpdateDateTime: 24/04/2021 09:50:34
     loggingEnabled: 1
     globalAbilityOverrideEnableStatus: 0
-    abilityEnabled: 1
+    abilityEnabled: 0
     enableDuration: 0
     enableAfterEvent: 0
     enableAfterAbilityIDsActivated: 
@@ -8684,7 +8348,7 @@ MonoBehaviour:
     assignedAbilityGroupIDs: 00000000
     abilityGroupListChoice: 0
     assignedAbilityGroupNames: []
-    inspectorParentAbilityListChoice: 3
+    inspectorParentAbilityListChoice: 0
     parentAbilityID: 11655204
     showChildrenInInspector: 0
     description: Sword combo attack which inflicts damage on the enemy hit
@@ -8694,7 +8358,7 @@ MonoBehaviour:
       refUpdateDateTime: 24/04/2021 09:50:37
     loggingEnabled: 1
     globalAbilityOverrideEnableStatus: 0
-    abilityEnabled: 1
+    abilityEnabled: 0
     enableDuration: 0
     enableAfterEvent: 0
     enableAfterAbilityIDsActivated: 
