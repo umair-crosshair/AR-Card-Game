@@ -72,7 +72,8 @@ MonoBehaviour:
     weaponGraphics:
     - foldOut: 0
       weaponObjMainGraphic:
-        refVal: {fileID: 6856196352620597141, guid: 3e42224965dc76f4e92372a62b1789fc, type: 3}
+        refVal: {fileID: 6856196352620597141, guid: 3e42224965dc76f4e92372a62b1789fc,
+          type: 3}
         refName: Mace
         refUpdateDateTime: 26/03/2021 12:16:33
       weaponObjSubGraphic:
@@ -347,7 +348,8 @@ MonoBehaviour:
     weaponParryAnimateOnScrollGraphic: 0
     weaponParryAnimateOnWeapon: 0
     weaponParryEffectGraphic:
-      refVal: {fileID: 6763794635688724990, guid: bd236ca3f25f4da4f8810e1cbad5892c, type: 3}
+      refVal: {fileID: 6763794635688724990, guid: bd236ca3f25f4da4f8810e1cbad5892c,
+        type: 3}
       refName: ParryImpact
       refUpdateDateTime: 11/08/2020 16:23:40
     weaponParryEffectSubGraphic:
@@ -387,7 +389,8 @@ MonoBehaviour:
     activateAbilityAfterBlockListChoice: 0
     useWeaponBlockAesthetics: 1
     weaponBlockEffectGraphic:
-      refVal: {fileID: 6263520613801824659, guid: f85652c7b9b423d4cb8ac9e80baf0c9d, type: 3}
+      refVal: {fileID: 6263520613801824659, guid: f85652c7b9b423d4cb8ac9e80baf0c9d,
+        type: 3}
       refName: ShieldBlockImpact
       refUpdateDateTime: 10/08/2020 16:48:32
     weaponBlockEffectSubGraphic:

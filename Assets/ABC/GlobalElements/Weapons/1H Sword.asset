@@ -39,7 +39,7 @@ MonoBehaviour:
     assignedGroupIDs: 
     assignedGroupNames: []
     enableAbilitiesWhenEquipped: 1
-    enableAbilityIDs: 24d8b10045d9b100879db2005ee1b1006ce0b100b8d0b10092ddb100f336a80600d3b100ae111200619db200
+    enableAbilityIDs: 24d8b10045d9b100879db2005ee1b1006ce0b100b8d0b10092ddb100f336a80600d3b100619db200
     enableAbilityStrings: []
     disableAllOtherAbilitiesNotListed: 0
     disableAllAbilitiesLinkedToOtherWeapons: 1
@@ -103,12 +103,13 @@ MonoBehaviour:
       weaponDisabledSetEulerRotation: 0
       useWeaponTrail: 0
       weaponTrailMaterial:
-        refVal: {fileID: 0}
-        refName: 
-        refUpdateDateTime: 
+        refVal: {fileID: 2100000, guid: 5f402d1520e5fa74fa21e08f85b71370, type: 2}
+        refName: ABC_WeaponTrail
+        refUpdateDateTime: 5/25/2023 7:55:08 AM
       weaponTrailBaseTag: ABC/WeaponBase
       weaponTrailTipTag: ABC/WeaponTip
-      weaponTrailColors: []
+      weaponTrailColors:
+      - {r: 1, g: 1, b: 1, a: 0}
     useWeaponAnimatorOverrides: 0
     weaponAnimatorClipRunnerOverrides:
     - animatorClipNamesToOverride:
@@ -4386,7 +4387,7 @@ MonoBehaviour:
     destroyIgnoreTag: []
     destroyDelay: 0
     useDestroySplashEffect: 0
-    destroySplashRadius: 0
+    destroySplashRadius: 15
     destroySplashExplosion: 0
     destroySplashExplosionRadius: 11655204
     destroySplashExplosionPower: 11655204
@@ -4414,7 +4415,7 @@ MonoBehaviour:
     shakeCameraOnInitiationDuration: 0.5
     shakeCameraOnInitiationAmount: 0.5
     shakeCameraOnInitiationSpeed: 25
-    shakeCameraOnImpact: 1
+    shakeCameraOnImpact: 0
     shakeCameraOnImpactDelay: 0
     shakeCameraOnImpactDuration: 0.3
     shakeCameraOnImpactAmount: 1
@@ -4461,7 +4462,7 @@ MonoBehaviour:
     defyGravityInitiatingDuration: 2
     defyGravityInitiatingDelay: 0
     defyGravityInitiatingRaiseEvent: 0
-    initiatingAestheticsPositionOffset: {x: 0, y: 0, z: 0}
+    initiatingAestheticsPositionOffset: {x: 0, y: 1, z: 0}
     initiatingAestheticsPositionForwardOffset: 0
     initiatingAestheticsPositionRightOffset: 0
     initiatingAnimationRunnerClip:
@@ -4498,25 +4499,25 @@ MonoBehaviour:
     moveSelfToTargetInitiatingForwardOffset: 0
     moveSelfToTargetInitiatingRightOffset: 0
     initiatingGraphic:
-      refVal: {fileID: 7773778024426442314, guid: 84dd08f0d5233f642808edc182d4faf0,
+      refVal: {fileID: 1171201465392465800, guid: 029d040408a11b54ba291dfa3a08aa44,
         type: 3}
-      refName: WeaponTrail_1
-      refUpdateDateTime: 19/03/2021 19:11:58
+      refName: Attack1Electro slash
+      refUpdateDateTime: 5/25/2023 9:57:38 AM
     initiatingSubGraphic:
       refVal: {fileID: 0}
       refName: 
-      refUpdateDateTime: 
+      refUpdateDateTime: 5/25/2023 10:17:22 AM
     initiatingAestheticActivateWithAbility: 0
     initiatingAestheticDuration: 2
-    initiatingAestheticDelay: 0.5
+    initiatingAestheticDelay: 0.6
     initiatingAestheticDetachFromParentAfterDelay: 1
-    initiatingAestheticDetachDelay: 0
+    initiatingAestheticDetachDelay: 0.1
     initiatingUseWeaponTrail: 0
     initiatingWeaponTrailGraphicIteration: 0
     intiatingProjectileDelayType: 1
     delayBetweenInitiatingAndProjectile: 0.3
     initiatingProjectileDelayAnimationPercentage: 35
-    initiatingStartPosition: 6
+    initiatingStartPosition: 0
     initiatingPositionOnObject:
       refVal: {fileID: 0}
       refName: 
@@ -4767,18 +4768,19 @@ MonoBehaviour:
     reloadAbilityPositionOnTag: 
     useAbilityEndAesthetics: 0
     abilityEndUseEffectGraphic: 0
-    abilityEndActivateOnEnvironmentOnly: 0
+    abilityEndActivateOnEnvironmentOnly: 1
     abilityEndGraphic:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
+      refVal: {fileID: 2944396702758532163, guid: e190bf97c041e58448af6b043116cba0,
+        type: 3}
+      refName: Holy hit
+      refUpdateDateTime: 5/25/2023 10:18:02 AM
     abilityEndSubGraphic:
       refVal: {fileID: 0}
       refName: 
       refUpdateDateTime: 
     scaleAbilityEndGraphic: 0
     abilityEndGraphicScale: 1
-    abEndAestheticDuration: 2
+    abEndAestheticDuration: 1
     stopMovementOnInitiate: 1
     stopMovementOnInitiateDuration: 0
     stopMovementOnInitiateFreezePosition: 0
@@ -4885,7 +4887,7 @@ MonoBehaviour:
     abilityGraphicScale: 1
     chooseLayer: 0
     abLayer: 
-    useColliderTrigger: 1
+    useColliderTrigger: 0
     applyGravity: 0
     applyGravityDelay: 0
     travelType: 5
@@ -5070,7 +5072,7 @@ MonoBehaviour:
     shakeCameraOnInitiationDuration: 0.5
     shakeCameraOnInitiationAmount: 0.5
     shakeCameraOnInitiationSpeed: 25
-    shakeCameraOnImpact: 1
+    shakeCameraOnImpact: 0
     shakeCameraOnImpactDelay: 0
     shakeCameraOnImpactDuration: 0.3
     shakeCameraOnImpactAmount: 2
@@ -5103,7 +5105,7 @@ MonoBehaviour:
       serializedVersion: 2
       m_Bits: 4294967295
     useGraphicRadius: 0
-    colliderRadius: 0.8
+    colliderRadius: 2
     colliderOffset: {x: 0, y: 0, z: 0}
     applyTravelDuration: 0
     travelDurationOriginatorTagsRequired: []
@@ -5117,7 +5119,7 @@ MonoBehaviour:
     defyGravityInitiatingDuration: 2
     defyGravityInitiatingDelay: 0
     defyGravityInitiatingRaiseEvent: 0
-    initiatingAestheticsPositionOffset: {x: 0, y: 0, z: 0}
+    initiatingAestheticsPositionOffset: {x: 0, y: 1, z: 0}
     initiatingAestheticsPositionForwardOffset: 0
     initiatingAestheticsPositionRightOffset: 0
     initiatingAnimationRunnerClip:
@@ -5154,25 +5156,25 @@ MonoBehaviour:
     moveSelfToTargetInitiatingForwardOffset: 0
     moveSelfToTargetInitiatingRightOffset: 0
     initiatingGraphic:
-      refVal: {fileID: 7773778024426442314, guid: 84dd08f0d5233f642808edc182d4faf0,
+      refVal: {fileID: 1171201465392465800, guid: 400883ab908a4414594a5f38f7454052,
         type: 3}
-      refName: WeaponTrail_1
-      refUpdateDateTime: 19/03/2021 19:14:57
+      refName: Attack2Electro slash
+      refUpdateDateTime: 5/25/2023 9:57:34 AM
     initiatingSubGraphic:
       refVal: {fileID: 0}
       refName: 
       refUpdateDateTime: 
     initiatingAestheticActivateWithAbility: 0
     initiatingAestheticDuration: 2
-    initiatingAestheticDelay: 0.35
+    initiatingAestheticDelay: 0.5
     initiatingAestheticDetachFromParentAfterDelay: 1
-    initiatingAestheticDetachDelay: 0
+    initiatingAestheticDetachDelay: 0.1
     initiatingUseWeaponTrail: 0
     initiatingWeaponTrailGraphicIteration: 0
     intiatingProjectileDelayType: 1
     delayBetweenInitiatingAndProjectile: 0.2
     initiatingProjectileDelayAnimationPercentage: 40
-    initiatingStartPosition: 6
+    initiatingStartPosition: 0
     initiatingPositionOnObject:
       refVal: {fileID: 0}
       refName: 
@@ -5425,9 +5427,10 @@ MonoBehaviour:
     abilityEndUseEffectGraphic: 0
     abilityEndActivateOnEnvironmentOnly: 0
     abilityEndGraphic:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
+      refVal: {fileID: 358637981425055526, guid: 8eb503696b886e04faff8fc0f480d473,
+        type: 3}
+      refName: Explosion
+      refUpdateDateTime: 5/25/2023 9:31:18 AM
     abilityEndSubGraphic:
       refVal: {fileID: 0}
       refName: 
@@ -5726,7 +5729,7 @@ MonoBehaviour:
     shakeCameraOnInitiationDuration: 0.5
     shakeCameraOnInitiationAmount: 0.5
     shakeCameraOnInitiationSpeed: 25
-    shakeCameraOnImpact: 1
+    shakeCameraOnImpact: 0
     shakeCameraOnImpactDelay: 0
     shakeCameraOnImpactDuration: 0.3
     shakeCameraOnImpactAmount: 1
@@ -5759,7 +5762,7 @@ MonoBehaviour:
       serializedVersion: 2
       m_Bits: 4294967295
     useGraphicRadius: 0
-    colliderRadius: 1
+    colliderRadius: 2
     colliderOffset: {x: 0, y: 0, z: 0}
     applyTravelDuration: 0
     travelDurationOriginatorTagsRequired: []
@@ -6081,9 +6084,10 @@ MonoBehaviour:
     abilityEndUseEffectGraphic: 0
     abilityEndActivateOnEnvironmentOnly: 0
     abilityEndGraphic:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
+      refVal: {fileID: 6823302871133167919, guid: 3138a83bedbd6ad4481ba0b061da2eb6,
+        type: 3}
+      refName: Green hit
+      refUpdateDateTime: 5/25/2023 9:31:35 AM
     abilityEndSubGraphic:
       refVal: {fileID: 0}
       refName: 
@@ -6325,7 +6329,334 @@ MonoBehaviour:
     bouncePositionRightOffset: 0
     boomerangMode: 0
     boomerangDelay: 0
-    effects: []
+    effects:
+    - effectPool:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      foldOut: 0
+      globalEffect: {fileID: 0}
+      effectAbilityID: 0
+      effectID: 115571
+      effectName: AdjustHealth
+      potency: -20
+      modifyPotencyUsingStats: 1
+      potencyStatModifications:
+      - statIntegrationType: 0
+        arithmeticOperator: 1
+        percentageValue: 45
+        statSource: 1
+        statName: Strength
+      - statIntegrationType: 0
+        arithmeticOperator: 0
+        percentageValue: 25
+        statSource: 0
+        statName: Defence
+      miscellaneousProperty: 
+      miscellaneousAltProperty: 
+      activateOn: 0
+      eventType: 0
+      delay: 0
+      effectDuration: 0.1
+      allowDuplicateEffectActivation: 0
+      limitNoOfDuplicateEffectActivations: 1
+      maxNoDuplicateEffectActivations: 3
+      repeatEffect: 0
+      repeatDuration: 0
+      repeatInterval: 0
+      repeatCount: 0
+      repeatAesthetics: 0
+      enableEffectActivationRange: 0
+      effectActivationRange: 0
+      effectIgnoreTag: []
+      effectIgnoreTagCheckObject: 0
+      effectIgnoreTagCheckEntity: 0
+      effectRequiredTag: []
+      effectRequiredTagCheckObject: 0
+      effectRequiredTagCheckEntity: 0
+      useProjectileForActivationRange: 0
+      effectRandomChance: 0
+      effectRandomChanceProbabilityMin: 0
+      effectRandomChanceProbabilityMax: 0
+      hitStopsMovement: 1
+      hitStopsMovementRandomChance: 0
+      hitStopsMovementProbabilityMin: 0
+      hitStopsMovementProbabilityMax: 0
+      hitPreventsCasting: 1
+      hitPreventsCastingRandomChance: 1
+      hitPreventsCastingProbabilityMin: 0
+      hitPreventsCastingProbabilityMax: 80
+      hitInterruptsCasting: 1
+      hitInterruptsCastingRandomChance: 1
+      hitInterruptsCastingProbabilityMin: 0
+      hitInterruptsCastingProbabilityMax: 20
+      playEffect: 1
+      addToEffectText: 1
+      effectText: '#Potency#'
+      effectTextDuration: 5
+      effectTextColour: {r: 1, g: 1, b: 1, a: 0}
+      addToEffectLog: 1
+      effectLogText: '#Origin# #Ability# inflicted #Potency# Damage on #Target#'
+      enableRemoveEffect: 0
+      dispellable: 0
+      specificPrepareTimeRequried: 0
+      specificPrepareTimeArithmeticComparison: 0
+      prepareTimeToActivate: 1
+      requireSplashToActivate: 0
+      removeEffectAddToEffectText: 0
+      removeEffectText: 
+      removeEffectTextDuration: 0
+      removeEffectTextColour: {r: 0, g: 0, b: 0, a: 0}
+      removeEffectAddToEffectLog: 0
+      removeEffectLogText: 
+      showNonActivationReason: 0
+      effectGraphic:
+        refVal: {fileID: 1408438189832907454, guid: 6c2719f3ee9554d4ba1cd6109cfd6cba,
+          type: 3}
+        refName: HitSparkImpactHeavy
+        refUpdateDateTime: 28/04/2021 14:18:21
+      effectChildGraphic:
+        refVal: {fileID: 0}
+        refName: 
+        refUpdateDateTime: 
+      scaleEffectGraphic: 0
+      effectGraphicScale: 1
+      effectGraphicOffset: {x: 0, y: 1.2, z: 0}
+      effectGraphicForwardOffset: 0
+      effectGraphicRightOffset: 0
+      effectGraphicDelay: 0
+      effectGraphicDuration: 3
+      effectFollowTarget: 1
+      effectOnHitPosition: 0
+    - effectPool:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      foldOut: 0
+      globalEffect: {fileID: 0}
+      effectAbilityID: 0
+      effectID: 115571
+      effectName: AdjustHealth
+      potency: -1
+      modifyPotencyUsingStats: 1
+      potencyStatModifications:
+      - statIntegrationType: 0
+        arithmeticOperator: 1
+        percentageValue: 65
+        statSource: 1
+        statName: Magic
+      - statIntegrationType: 0
+        arithmeticOperator: 0
+        percentageValue: 25
+        statSource: 0
+        statName: Defence
+      miscellaneousProperty: 
+      miscellaneousAltProperty: 
+      activateOn: 0
+      eventType: 0
+      delay: 0
+      effectDuration: 1
+      allowDuplicateEffectActivation: 1
+      limitNoOfDuplicateEffectActivations: 1
+      maxNoDuplicateEffectActivations: 3
+      repeatEffect: 0
+      repeatDuration: 30
+      repeatInterval: 5
+      repeatCount: 0
+      repeatAesthetics: 1
+      enableEffectActivationRange: 0
+      effectActivationRange: 0
+      effectIgnoreTag: []
+      effectIgnoreTagCheckObject: 0
+      effectIgnoreTagCheckEntity: 0
+      effectRequiredTag: []
+      effectRequiredTagCheckObject: 0
+      effectRequiredTagCheckEntity: 0
+      useProjectileForActivationRange: 0
+      effectRandomChance: 0
+      effectRandomChanceProbabilityMin: 0
+      effectRandomChanceProbabilityMax: 0
+      hitStopsMovement: 0
+      hitStopsMovementRandomChance: 0
+      hitStopsMovementProbabilityMin: 0
+      hitStopsMovementProbabilityMax: 0
+      hitPreventsCasting: 0
+      hitPreventsCastingRandomChance: 0
+      hitPreventsCastingProbabilityMin: 0
+      hitPreventsCastingProbabilityMax: 0
+      hitInterruptsCasting: 0
+      hitInterruptsCastingRandomChance: 1
+      hitInterruptsCastingProbabilityMin: 0
+      hitInterruptsCastingProbabilityMax: 90
+      playEffect: 1
+      addToEffectText: 1
+      effectText: '#Potency#'
+      effectTextDuration: 5
+      effectTextColour: {r: 0.9811321, g: 0, b: 0, a: 0}
+      addToEffectLog: 1
+      effectLogText: '#Origin# #Ability# inflicted #Potency# Damage on #Target#'
+      enableRemoveEffect: 0
+      dispellable: 0
+      specificPrepareTimeRequried: 0
+      specificPrepareTimeArithmeticComparison: 0
+      prepareTimeToActivate: 1
+      requireSplashToActivate: 1
+      removeEffectAddToEffectText: 0
+      removeEffectText: 
+      removeEffectTextDuration: 0
+      removeEffectTextColour: {r: 0, g: 0, b: 0, a: 0}
+      removeEffectAddToEffectLog: 0
+      removeEffectLogText: 
+      showNonActivationReason: 0
+      effectGraphic:
+        refVal: {fileID: 1321021649640250, guid: 7e6c183d69bb7084c894a627bd43db61,
+          type: 3}
+        refName: FireImpact
+        refUpdateDateTime: 08/05/2021 10:06:20
+      effectChildGraphic:
+        refVal: {fileID: 0}
+        refName: 
+        refUpdateDateTime: 
+      scaleEffectGraphic: 0
+      effectGraphicScale: 1
+      effectGraphicOffset: {x: 0, y: 1.21, z: 0}
+      effectGraphicForwardOffset: 0
+      effectGraphicRightOffset: 0
+      effectGraphicDelay: 0
+      effectGraphicDuration: 2
+      effectFollowTarget: 1
+      effectOnHitPosition: 0
+    - effectPool: []
+      foldOut: 0
+      globalEffect: {fileID: 0}
+      effectAbilityID: 0
+      effectID: 111638811
+      effectName: RandomHitAnimation
+      potency: 5
+      modifyPotencyUsingStats: 0
+      potencyStatModifications: []
+      miscellaneousProperty: 
+      miscellaneousAltProperty: 
+      activateOn: 0
+      eventType: 0
+      delay: 0
+      effectDuration: 0.5
+      allowDuplicateEffectActivation: 1
+      limitNoOfDuplicateEffectActivations: 1
+      maxNoDuplicateEffectActivations: 3
+      repeatEffect: 0
+      repeatDuration: 30
+      repeatInterval: 5
+      repeatCount: 0
+      repeatAesthetics: 1
+      enableEffectActivationRange: 0
+      effectActivationRange: 0
+      effectIgnoreTag: []
+      effectIgnoreTagCheckObject: 0
+      effectIgnoreTagCheckEntity: 0
+      effectRequiredTag: []
+      effectRequiredTagCheckObject: 0
+      effectRequiredTagCheckEntity: 0
+      useProjectileForActivationRange: 0
+      effectRandomChance: 0
+      effectRandomChanceProbabilityMin: 0
+      effectRandomChanceProbabilityMax: 0
+      hitStopsMovement: 0
+      hitStopsMovementRandomChance: 0
+      hitStopsMovementProbabilityMin: 0
+      hitStopsMovementProbabilityMax: 0
+      hitPreventsCasting: 0
+      hitPreventsCastingRandomChance: 0
+      hitPreventsCastingProbabilityMin: 0
+      hitPreventsCastingProbabilityMax: 0
+      hitInterruptsCasting: 0
+      hitInterruptsCastingRandomChance: 1
+      hitInterruptsCastingProbabilityMin: 0
+      hitInterruptsCastingProbabilityMax: 90
+      playEffect: 0
+      addToEffectText: 0
+      effectText: '#Potency#'
+      effectTextDuration: 5
+      effectTextColour: {r: 0.9811321, g: 0, b: 0, a: 0}
+      addToEffectLog: 0
+      effectLogText: '#Origin# #Ability# inflicted #Potency# Damage on #Target#'
+      enableRemoveEffect: 0
+      dispellable: 0
+      specificPrepareTimeRequried: 0
+      specificPrepareTimeArithmeticComparison: 0
+      prepareTimeToActivate: 1
+      requireSplashToActivate: 1
+      removeEffectAddToEffectText: 0
+      removeEffectText: 
+      removeEffectTextDuration: 0
+      removeEffectTextColour: {r: 0, g: 0, b: 0, a: 0}
+      removeEffectAddToEffectLog: 0
+      removeEffectLogText: 
+      showNonActivationReason: 0
+      effectGraphic:
+        refVal: {fileID: 1321021649640250, guid: 7e6c183d69bb7084c894a627bd43db61,
+          type: 3}
+        refName: FireImpact
+        refUpdateDateTime: 08/05/2021 10:06:20
+      effectChildGraphic:
+        refVal: {fileID: 0}
+        refName: 
+        refUpdateDateTime: 
+      scaleEffectGraphic: 0
+      effectGraphicScale: 1
+      effectGraphicOffset: {x: 0, y: 1.21, z: 0}
+      effectGraphicForwardOffset: 0
+      effectGraphicRightOffset: 0
+      effectGraphicDelay: 0
+      effectGraphicDuration: 2
+      effectFollowTarget: 1
+      effectOnHitPosition: 0
     onEnter: 1
     onStay: 0
     onStayInterval: 0.3
@@ -6384,13 +6715,13 @@ MonoBehaviour:
     shakeCameraOnInitiationSpeed: 25
     shakeCameraOnImpact: 1
     shakeCameraOnImpactDelay: 0
-    shakeCameraOnImpactDuration: 0.3
-    shakeCameraOnImpactAmount: 3
+    shakeCameraOnImpactDuration: 0.1
+    shakeCameraOnImpactAmount: 2
     shakeCameraOnImpactSpeed: 3
     pushEntityOnImpact: 0
     pushEntityOnImpactDelay: 0.1
-    pushEntityOnImpactAmount: 1.5
-    pushEntityOnImpactLiftForce: 0
+    pushEntityOnImpactAmount: 1
+    pushEntityOnImpactLiftForce: 1
     defyEntityGravityOnImpact: 0
     defyEntityGravityOnImpactDelay: 0.1
     defyEntityGravityOnImpactDuration: 1.5
@@ -6415,7 +6746,7 @@ MonoBehaviour:
       serializedVersion: 2
       m_Bits: 4294967295
     useGraphicRadius: 0
-    colliderRadius: 0.9
+    colliderRadius: 2
     colliderOffset: {x: 0, y: 0, z: 0}
     applyTravelDuration: 0
     travelDurationOriginatorTagsRequired: []
@@ -6429,7 +6760,7 @@ MonoBehaviour:
     defyGravityInitiatingDuration: 2
     defyGravityInitiatingDelay: 0
     defyGravityInitiatingRaiseEvent: 0
-    initiatingAestheticsPositionOffset: {x: 0, y: 0, z: 0}
+    initiatingAestheticsPositionOffset: {x: 0, y: 1, z: 0}
     initiatingAestheticsPositionForwardOffset: 0
     initiatingAestheticsPositionRightOffset: 0
     initiatingAnimationRunnerClip:
@@ -6466,17 +6797,17 @@ MonoBehaviour:
     moveSelfToTargetInitiatingForwardOffset: 0
     moveSelfToTargetInitiatingRightOffset: 0
     initiatingGraphic:
-      refVal: {fileID: 7773778024426442314, guid: 84dd08f0d5233f642808edc182d4faf0,
+      refVal: {fileID: 1171201465392465800, guid: b6b8d0619e6654440ba524257a18da94,
         type: 3}
-      refName: WeaponTrail_1
-      refUpdateDateTime: 19/03/2021 19:14:58
+      refName: Attack4Electro slash
+      refUpdateDateTime: 5/25/2023 10:00:13 AM
     initiatingSubGraphic:
       refVal: {fileID: 0}
       refName: 
-      refUpdateDateTime: 
+      refUpdateDateTime: 5/25/2023 9:43:42 AM
     initiatingAestheticActivateWithAbility: 0
     initiatingAestheticDuration: 2
-    initiatingAestheticDelay: 0.3
+    initiatingAestheticDelay: 0.5
     initiatingAestheticDetachFromParentAfterDelay: 1
     initiatingAestheticDetachDelay: 0
     initiatingUseWeaponTrail: 0
@@ -6484,7 +6815,7 @@ MonoBehaviour:
     intiatingProjectileDelayType: 1
     delayBetweenInitiatingAndProjectile: 0.1
     initiatingProjectileDelayAnimationPercentage: 49
-    initiatingStartPosition: 6
+    initiatingStartPosition: 0
     initiatingPositionOnObject:
       refVal: {fileID: 0}
       refName: 
@@ -6737,9 +7068,10 @@ MonoBehaviour:
     abilityEndUseEffectGraphic: 0
     abilityEndActivateOnEnvironmentOnly: 0
     abilityEndGraphic:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
+      refVal: {fileID: 2944396702758532163, guid: e190bf97c041e58448af6b043116cba0,
+        type: 3}
+      refName: Holy hit
+      refUpdateDateTime: 5/25/2023 9:31:44 AM
     abilityEndSubGraphic:
       refVal: {fileID: 0}
       refName: 
