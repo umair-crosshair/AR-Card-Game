@@ -8,9 +8,10 @@ public class GameController : MonoBehaviour
     [SerializeField] private GameObject playerCamera;
     [SerializeField]private GameObject playerPrefab;
     [SerializeField] private GameObject enemyPrefab;
-
+    [SerializeField] private GameObject dummyPrefab;
     [SerializeField] private Transform PlayerCard;
     [SerializeField] private Transform EnemyCard;
+    [SerializeField] private Transform DummyCard;
 
 
     private void Start()
@@ -43,7 +44,10 @@ public class GameController : MonoBehaviour
     {
         Instantiate(enemyPrefab, EnemyCard.transform.position, Quaternion.identity);
     }
-
+    public void SpawnDummy()
+    {
+        Instantiate(dummyPrefab, DummyCard.transform.position, Quaternion.identity);
+    }
 
     public void RespawnPlayer()
     {
@@ -68,6 +72,10 @@ public class GameController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             InitEnemy();
+        }
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            SpawnDummy();
         }
     }
 

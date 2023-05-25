@@ -39,7 +39,7 @@ MonoBehaviour:
     assignedGroupIDs: 
     assignedGroupNames: []
     enableAbilitiesWhenEquipped: 1
-    enableAbilityIDs: 24d8b10045d9b100879db2005ee1b1006ce0b100b8d0b10092ddb100f336a80600d3b100619db200
+    enableAbilityIDs: 24d8b10045d9b100879db2005ee1b100
     enableAbilityStrings: []
     disableAllOtherAbilitiesNotListed: 0
     disableAllAbilitiesLinkedToOtherWeapons: 1
@@ -75,7 +75,7 @@ MonoBehaviour:
         refVal: {fileID: 7281532619583613859, guid: 3a84417a3060c9a4b8a401731f885cff,
           type: 3}
         refName: Sword 1
-        refUpdateDateTime: 5/24/2023 11:52:07 AM
+        refUpdateDateTime: 5/25/2023 11:30:39 AM
       weaponObjSubGraphic:
         refVal: {fileID: 0}
         refName: 
@@ -6977,7 +6977,7 @@ MonoBehaviour:
         refUpdateDateTime: 
       scaleEffectGraphic: 0
       effectGraphicScale: 1
-      effectGraphicOffset: {x: 0, y: 0.5, z: 0}
+      effectGraphicOffset: {x: 0, y: 0.2, z: 0}
       effectGraphicForwardOffset: 0
       effectGraphicRightOffset: 0
       effectGraphicDelay: 0
