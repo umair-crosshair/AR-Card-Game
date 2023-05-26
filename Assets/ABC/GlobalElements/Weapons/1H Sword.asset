@@ -5477,7 +5477,7 @@ MonoBehaviour:
     reduceManaWhenActive: 0
     enableExport: 0
     enableImport: 1
-    tempAbilityActivationIntervalAdjustment: 1
+    tempAbilityActivationIntervalAdjustment: 0
     randomlySwapAbilityPosition: 0
     abilityCombo: 1
     comboNextActivateTime: 1
@@ -6249,7 +6249,7 @@ MonoBehaviour:
       refUpdateDateTime: 
     initiatingAnimationRunnerClipSpeed: 0.85
     initiatingAnimationRunnerClipDelay: 0
-    initiatingAnimationRunnerClipDuration: 1.67
+    initiatingAnimationRunnerClipDuration: 1
     initiatingAnimationRunnerOnEntity: 1
     initiatingAnimationRunnerOnScrollGraphic: 0
     initiatingAnimationRunnerOnWeapon: 0
@@ -6289,7 +6289,7 @@ MonoBehaviour:
     initiatingWeaponTrailGraphicIteration: 0
     intiatingProjectileDelayType: 1
     delayBetweenInitiatingAndProjectile: 0.2
-    initiatingProjectileDelayAnimationPercentage: 40
+    initiatingProjectileDelayAnimationPercentage: 22.8
     initiatingStartPosition: 0
     initiatingPositionOnObject:
       refVal: {fileID: 0}
@@ -6607,10 +6607,10 @@ MonoBehaviour:
     reduceManaWhenActive: 0
     enableExport: 0
     enableImport: 1
-    tempAbilityActivationIntervalAdjustment: 0.3
+    tempAbilityActivationIntervalAdjustment: 0
     randomlySwapAbilityPosition: 0
     abilityCombo: 1
-    comboNextActivateTime: 0.9
+    comboNextActivateTime: 1
     neverResetOtherCombos: 0
     comboHitRequired: 0
     LandOrAir: 0
@@ -6651,7 +6651,7 @@ MonoBehaviour:
     mainGraphic:
       refVal: {fileID: 1423176981338532, guid: d834fa1953f196b4aa6709a7f1491cca, type: 3}
       refName: ABC_DefaultProjectile
-      refUpdateDateTime: 22/02/2021 20:30:46
+      refUpdateDateTime: 5/26/2023 11:01:50 AM
     subGraphic:
       refVal: {fileID: 0}
       refName: 
@@ -7365,12 +7365,12 @@ MonoBehaviour:
       refUpdateDateTime: 
     reloadAbilityPositionOnTag: 
     useAbilityEndAesthetics: 1
-    abilityEndUseEffectGraphic: 1
+    abilityEndUseEffectGraphic: 0
     abilityEndActivateOnEnvironmentOnly: 1
     abilityEndGraphic:
-      refVal: {fileID: 1628913772799170, guid: 2276a980732c1af4e9897e425f4dae74, type: 3}
-      refName: ProjectileImpact
-      refUpdateDateTime: 22/02/2021 21:02:45
+      refVal: {fileID: 1120835270511274, guid: 33cfc2755a55b7e4c86c9d7018efbaaa, type: 3}
+      refName: Hit 5
+      refUpdateDateTime: 5/26/2023 11:09:55 AM
     abilityEndSubGraphic:
       refVal: {fileID: 0}
       refName: 

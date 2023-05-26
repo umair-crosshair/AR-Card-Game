@@ -75,7 +75,7 @@ public class GameController : MonoBehaviour
         {
             InitEnemy();
         }
-        if (Input.GetKeyDown(KeyCode.M))
+        if (Input.GetKeyDown(KeyCode.N))
         {
             SpawnDummy();
         }
