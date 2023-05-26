@@ -1,0 +1,15 @@
+Phoenix Katana
+
+flame scroll:
+
+blade top:
+X:  0.11
+Y:  -0.14
+
+blade bottom:
+X:  -0.07
+Y:  -0.19
+
+blade bottom small part:
+X:  -0.11
+Y:  -0.11

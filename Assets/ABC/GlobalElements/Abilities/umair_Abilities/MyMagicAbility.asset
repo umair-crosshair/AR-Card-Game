@@ -488,10 +488,9 @@ MonoBehaviour:
     sendObjectToProjectile: 0
     objectToProjectileDuration: 2
     mainGraphic:
-      refVal: {fileID: 1542402202333259043, guid: 1cb38de81ad788e469ff758b3e55e016,
-        type: 3}
-      refName: PurpleFireBall
-      refUpdateDateTime: 5/24/2023 10:43:51 AM
+      refVal: {fileID: 1481587283673810, guid: af4e09f08d1ee0d4dbc1edb630effef9, type: 3}
+      refName: RedMagicProjectile
+      refUpdateDateTime: 5/25/2023 12:40:26 PM
     subGraphic:
       refVal: {fileID: 0}
       refName: 
@@ -503,7 +502,7 @@ MonoBehaviour:
     useColliderTrigger: 1
     applyGravity: 0
     applyGravityDelay: 0
-    travelType: 1
+    travelType: 10
     castableDuringHitPrevention: 0
     hitPreventionWontInterruptActivation: 0
     forceActivation: 0
@@ -588,7 +587,7 @@ MonoBehaviour:
     keyInputType: 0
     keyButton: 
     globalAbilityOverrideKeyTrigger: 0
-    key: 106
+    key: 112
     onKeyPress: 1
     onKeyDown: 0
     requireAdditionalKeyInput: 0

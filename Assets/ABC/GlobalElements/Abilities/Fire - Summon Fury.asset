@@ -486,7 +486,8 @@ MonoBehaviour:
     sendObjectToProjectile: 0
     objectToProjectileDuration: 2
     mainGraphic:
-      refVal: {fileID: 2968393254498575240, guid: 8c8c4064e99c91444a3c7cc7119a0f29, type: 3}
+      refVal: {fileID: 2968393254498575240, guid: 8c8c4064e99c91444a3c7cc7119a0f29,
+        type: 3}
       refName: FireBallSummon
       refUpdateDateTime: 25/03/2021 18:31:00
     subGraphic:
@@ -875,7 +876,8 @@ MonoBehaviour:
     moveSelfToTargetPreparingForwardOffset: 0
     moveSelfToTargetPreparingRightOffset: 0
     preparingGraphic:
-      refVal: {fileID: 7572394644581050090, guid: d9e8daa4f6b764d468e902c2569ded89, type: 3}
+      refVal: {fileID: 7572394644581050090, guid: d9e8daa4f6b764d468e902c2569ded89,
+        type: 3}
       refName: ElectrictyGlow_Red
       refUpdateDateTime: 25/04/2021 10:42:27
     preparingSubGraphic:
