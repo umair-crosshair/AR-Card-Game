@@ -419,6 +419,16 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
     foldOut: 1
     globalEffect: {fileID: 0}
     effectAbilityID: 0
@@ -496,9 +506,9 @@ MonoBehaviour:
     removeEffectLogText: 
     showNonActivationReason: 0
     effectGraphic:
-      refVal: {fileID: 1321021649640250, guid: 7e6c183d69bb7084c894a627bd43db61, type: 3}
-      refName: FireImpact
-      refUpdateDateTime: 08/05/2021 10:06:20
+      refVal: {fileID: 1220213892471706, guid: cba8a8d961ccea0459b758820dc1c9e6, type: 3}
+      refName: FireballHit
+      refUpdateDateTime: 5/26/2023 12:52:33 PM
     effectChildGraphic:
       refVal: {fileID: 0}
       refName: 

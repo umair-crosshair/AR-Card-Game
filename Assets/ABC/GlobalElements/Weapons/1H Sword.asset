@@ -12493,7 +12493,7 @@ MonoBehaviour:
     keyInputType: 0
     keyButton: 
     globalAbilityOverrideKeyTrigger: 0
-    key: 51
+    key: 267
     onKeyPress: 1
     onKeyDown: 0
     requireAdditionalKeyInput: 0
@@ -13233,7 +13233,7 @@ MonoBehaviour:
     keyInputType: 0
     keyButton: 
     globalAbilityOverrideKeyTrigger: 0
-    key: 51
+    key: 272
     onKeyPress: 1
     onKeyDown: 0
     requireAdditionalKeyInput: 0

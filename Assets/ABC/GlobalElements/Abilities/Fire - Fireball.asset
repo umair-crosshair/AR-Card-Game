@@ -488,9 +488,9 @@ MonoBehaviour:
     sendObjectToProjectile: 0
     objectToProjectileDuration: 2
     mainGraphic:
-      refVal: {fileID: 1481587283673810, guid: af4e09f08d1ee0d4dbc1edb630effef9, type: 3}
-      refName: RedMagicProjectile
-      refUpdateDateTime: 5/25/2023 1:01:42 PM
+      refVal: {fileID: 1294834399362254, guid: 5e3c63f0bf3276447a5feb769585989c, type: 3}
+      refName: FireProjectile
+      refUpdateDateTime: 5/26/2023 12:47:06 PM
     subGraphic:
       refVal: {fileID: 0}
       refName: 
@@ -1206,9 +1206,9 @@ MonoBehaviour:
     abilityEndUseEffectGraphic: 1
     abilityEndActivateOnEnvironmentOnly: 1
     abilityEndGraphic:
-      refVal: {fileID: 1321021649640250, guid: 7e6c183d69bb7084c894a627bd43db61, type: 3}
-      refName: FireImpact
-      refUpdateDateTime: 31/08/2020 11:08:08
+      refVal: {fileID: 1220213892471706, guid: cba8a8d961ccea0459b758820dc1c9e6, type: 3}
+      refName: FireballHit
+      refUpdateDateTime: 5/26/2023 12:50:14 PM
     abilityEndSubGraphic:
       refVal: {fileID: 0}
       refName: 
