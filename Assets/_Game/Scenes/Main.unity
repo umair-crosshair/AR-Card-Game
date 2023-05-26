@@ -13100,7 +13100,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 233e92ed870b10c4793c086bc8bd19aa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.81
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 233e92ed870b10c4793c086bc8bd19aa, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13147,8 +13147,16 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 19900000, guid: 233e92ed870b10c4793c086bc8bd19aa, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19900000, guid: 233e92ed870b10c4793c086bc8bd19aa, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19900000, guid: 233e92ed870b10c4793c086bc8bd19aa, type: 3}
       propertyPath: m_MaxParticleSize
-      value: 1.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 19900000, guid: 233e92ed870b10c4793c086bc8bd19aa, type: 3}
       propertyPath: m_Materials.Array.size
@@ -22279,7 +22287,7 @@ MonoBehaviour:
   playerCamera: {fileID: 1618380440}
   playerPrefab: {fileID: 8622687175138694396, guid: f77a7c2b66d667847971bdfec661cd06,
     type: 3}
-  enemyPrefab: {fileID: 8809039457099187998, guid: 426e22209619a654ca67d48f743f9d7e,
+  enemyPrefab: {fileID: 8809039457099187998, guid: fb9b7eaca64d29846abaa1e285e19bd3,
     type: 3}
   dummyPrefab: {fileID: 8723172306774574839, guid: becf7dabfa4bd3c4facdff4acb48d4a5,
     type: 3}

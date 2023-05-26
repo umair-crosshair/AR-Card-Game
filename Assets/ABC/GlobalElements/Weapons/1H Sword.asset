@@ -8096,7 +8096,7 @@ MonoBehaviour:
     initiatingWeaponTrailGraphicIteration: 0
     intiatingProjectileDelayType: 1
     delayBetweenInitiatingAndProjectile: 0.1
-    initiatingProjectileDelayAnimationPercentage: 49
+    initiatingProjectileDelayAnimationPercentage: 32
     initiatingStartPosition: 0
     initiatingPositionOnObject:
       refVal: {fileID: 0}
