@@ -6749,7 +6749,7 @@ MonoBehaviour:
     keyInputType: 0
     keyButton: 
     globalAbilityOverrideKeyTrigger: 0
-    key: 323
+    key: 49
     onKeyPress: 1
     onKeyDown: 0
     requireAdditionalKeyInput: 0
@@ -13052,7 +13052,7 @@ MonoBehaviour:
     globalElementSource: {fileID: 0}
     globalAbilitiesEnableGameTypeModification: 0
     globalAbilitiesGameTypeModification: 0
-    name: Copy Of Projectile Attack
+    name: Single Magic Projectile Attack
     abilityID: 131462766
     autoCast: 0
     abilityTags: []
@@ -13233,7 +13233,7 @@ MonoBehaviour:
     keyInputType: 0
     keyButton: 
     globalAbilityOverrideKeyTrigger: 0
-    key: 272
+    key: 49
     onKeyPress: 1
     onKeyDown: 0
     requireAdditionalKeyInput: 0
@@ -13253,7 +13253,7 @@ MonoBehaviour:
     autoReloadWhenRequired: 1
     reloadFillClip: 0
     reloadFillClipRepeatGraphic: 1
-    abilityRecast: 15
+    abilityRecast: 3
     startRecastAfterAbilityEnd: 0
     travelSpeed: 22
     duration: 8
@@ -13549,16 +13549,17 @@ MonoBehaviour:
     initiatingAestheticsPositionForwardOffset: 1
     initiatingAestheticsPositionRightOffset: 0
     initiatingAnimationRunnerClip:
-      refVal: {fileID: 7400000, guid: ba5f72fb38f60f1479c195507c98a2db, type: 2}
-      refName: InitiationStrongEnd
-      refUpdateDateTime: 27/02/2021 12:34:04
+      refVal: {fileID: 8054657191847103693, guid: 6adc1a6e013d79b459795af47a365a8d,
+        type: 3}
+      refName: combo_01_3
+      refUpdateDateTime: 5/29/2023 6:42:11 AM
     initiatingAnimationRunnerMask:
       refVal: {fileID: 0}
       refName: 
       refUpdateDateTime: 
-    initiatingAnimationRunnerClipSpeed: 0.5
+    initiatingAnimationRunnerClipSpeed: 0.6
     initiatingAnimationRunnerClipDelay: 0
-    initiatingAnimationRunnerClipDuration: 0.5
+    initiatingAnimationRunnerClipDuration: 1
     initiatingAnimationRunnerOnEntity: 1
     initiatingAnimationRunnerOnScrollGraphic: 0
     initiatingAnimationRunnerOnWeapon: 0
@@ -13595,9 +13596,9 @@ MonoBehaviour:
     initiatingAestheticDetachDelay: 0.1
     initiatingUseWeaponTrail: 0
     initiatingWeaponTrailGraphicIteration: 0
-    intiatingProjectileDelayType: 0
+    intiatingProjectileDelayType: 1
     delayBetweenInitiatingAndProjectile: 0.2
-    initiatingProjectileDelayAnimationPercentage: 30
+    initiatingProjectileDelayAnimationPercentage: 50
     initiatingStartPosition: 0
     initiatingPositionOnObject:
       refVal: {fileID: 0}

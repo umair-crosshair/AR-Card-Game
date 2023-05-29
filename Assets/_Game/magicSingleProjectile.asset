@@ -10,19 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c01ab283f033a14f8c5a09e2655c67e, type: 3}
-  m_Name: Fire - Upper Slash
+  m_Name: magicSingleProjectile
   m_EditorClassIdentifier: 
-  elementIcon: {fileID: 2800000, guid: e5c50f1ff48de6945b6a8441e37183d4, type: 3}
+  elementIcon: {fileID: 2800000, guid: 44b9edf5f495d40439d8e74a8574fe0e, type: 3}
   showWeaponPreview: 1
-  elementDescription: A flaming attack which will slash the enemies upwards sending
-    them flying
-  elementTags:
-  - Fire
-  - Damage
-  - Melee
-  creationDate: 03/06/2021 15:24:20
-  createdBy: ABC
-  officialABC: 1
+  elementDescription: 
+  elementTags: []
+  creationDate: 5/29/2023 11:33:27 AM
+  createdBy: single magic projectile
+  officialABC: 0
   elementType: 1
   ElementWeapon:
     globalWeapon: {fileID: 0}
@@ -406,8 +402,8 @@ MonoBehaviour:
     globalElementSource: {fileID: 0}
     globalAbilitiesEnableGameTypeModification: 0
     globalAbilitiesGameTypeModification: 0
-    name: Flaming Upper Slash
-    abilityID: 11705697
+    name: Projectile Attack
+    abilityID: 131462664
     autoCast: 0
     abilityTags: []
     allowAbilityGroupAssignment: 0
@@ -417,13 +413,12 @@ MonoBehaviour:
     inspectorParentAbilityListChoice: 0
     parentAbilityID: 0
     showChildrenInInspector: 0
-    description: A flaming attack which will slash the enemies upwards sending them
-      flying
+    description: A normal projectile attack which will do damage on impact
     iconImage:
-      refVal: {fileID: 2800000, guid: e5c50f1ff48de6945b6a8441e37183d4, type: 3}
-      refName: Fire Upper Slash
-      refUpdateDateTime: 24/04/2021 10:03:49
-    loggingEnabled: 1
+      refVal: {fileID: 2800000, guid: 9e137e5cf643e254e9e7bf72063c37e3, type: 3}
+      refName: ProjectileAttack
+      refUpdateDateTime: 03/07/2021 19:56:59
+    loggingEnabled: 0
     globalAbilityOverrideEnableStatus: 0
     abilityEnabled: 0
     enableDuration: 0
@@ -431,7 +426,7 @@ MonoBehaviour:
     enableAfterAbilityIDsActivated: 
     enableAfterAbilityIDsCollide: 
     enableAbilityActivationLinks: 0
-    activationLinkAbilityIDs: 03000000
+    activationLinkAbilityIDs: 0c000000
     enableAbilityTriggerLinks: 0
     triggerLinkAbilityIDs: 
     enableAbilityEffectLinks: 0
@@ -439,7 +434,7 @@ MonoBehaviour:
     abilityIgnoreTag:
     - Ally
     abilityRequiredTag: []
-    manaCost: 0
+    manaCost: 50
     statCost: 0
     statCostIntegrationType: 0
     statCostName: stamina
@@ -449,7 +444,7 @@ MonoBehaviour:
     tempAbilityActivationIntervalAdjustment: 0
     randomlySwapAbilityPosition: 0
     abilityCombo: 0
-    comboNextActivateTime: 0.3
+    comboNextActivateTime: 0
     neverResetOtherCombos: 0
     comboHitRequired: 0
     LandOrAir: 0
@@ -459,7 +454,7 @@ MonoBehaviour:
     mass: 1
     travelDelay: 0
     requireCrossHairOverride: 0
-    abilityType: 2
+    abilityType: 0
     rayCastLength: 100
     rayCastSingleHit: 1
     rayCastRadius: 1
@@ -488,9 +483,9 @@ MonoBehaviour:
     sendObjectToProjectile: 0
     objectToProjectileDuration: 2
     mainGraphic:
-      refVal: {fileID: 1400116881802910, guid: 33ee7b059fce7c94fb76cf945569c1ef, type: 3}
-      refName: ABC_EmptyMelee
-      refUpdateDateTime: 10/08/2020 11655493:11655913:30
+      refVal: {fileID: 1423176981338532, guid: d834fa1953f196b4aa6709a7f1491cca, type: 3}
+      refName: ABC_DefaultProjectile
+      refUpdateDateTime: 5/26/2023 11:01:50 AM
     subGraphic:
       refVal: {fileID: 0}
       refName: 
@@ -501,28 +496,28 @@ MonoBehaviour:
     abLayer: 
     useColliderTrigger: 1
     applyGravity: 0
-    applyGravityDelay: 0
-    travelType: 5
+    applyGravityDelay: 1
+    travelType: 1
     castableDuringHitPrevention: 0
     hitPreventionWontInterruptActivation: 0
     forceActivation: 0
     forceActivationInterruptCurrentActivation: 0
     overrideIgnoreAbilityCollision: 0
-    overrideWeaponParrying: 1
-    overrideWeaponBlocking: 1
+    overrideWeaponParrying: 0
+    overrideWeaponBlocking: 0
     reduceWeaponBlockDurability: 1
     activateAnimationFromHit: 1
-    activateAnimationFromHitDelay: 0.3
+    activateAnimationFromHitDelay: 0
     activateAnimationFromHitUseAirAnimation: 0
-    activateSpecificHitAnimation: 1
-    hitAnimationToActivate: KnockDownSpin
+    activateSpecificHitAnimation: 0
+    hitAnimationToActivate: KnockDown
     activateSpecificHitAnimationUseClip: 0
     hitAnimationClipToActivate:
       refVal: {fileID: 0}
       refName: 
       refUpdateDateTime: 
     mouseForwardLockX: 0
-    mouseForwardLockY: 0
+    mouseForwardLockY: 1
     mouseForwardLockZ: 0
     mouseFrontOnly: 0
     travelWithCaster: 0
@@ -532,9 +527,9 @@ MonoBehaviour:
     startingPositionAuxiliarySoftTarget: 0
     targetTravel: 1
     targetFacing: 0
-    continuouslyTurnToDestination: 1
+    continuouslyTurnToDestination: 0
     abilityBeforeTarget: 0
-    loopTillTargetFound: 1
+    loopTillTargetFound: 0
     abilityRangeIndicatorImage:
       refVal: {fileID: 2800000, guid: e633cff869c700a4095c6b6f9529c4a8, type: 3}
       refName: ABC_RangeIndicatorImage
@@ -551,21 +546,23 @@ MonoBehaviour:
     abilityBeforeTargetWorldIndicatorScale: 3
     abilityBeforeTargetMouseTargetIndicatorLength: 7
     seekTargetDelay: 0
-    selectedTargetRestrictTargets: 0
-    selectedTargetOnlyCastOnTag: []
+    selectedTargetRestrictTargets: 1
+    selectedTargetOnlyCastOnTag:
+    - Target
     affectOnlyTarget: 0
     rotateToSelectedTarget: 1
-    meleeKeepRotatingToSelectedTarget: 1
+    meleeKeepRotatingToSelectedTarget: 0
     noTargetRotateBehaviour: 0
     hitsStopMeleeAttack: 1
     customTravelScript:
       refVal: {fileID: 0}
       refName: 
       refUpdateDateTime: 
-    travelNearestTagList: []
-    travelNearestTagRange: 11655493
+    travelNearestTagList:
+    - Finish
+    travelNearestTagRange: 20
     travelNearestTagIgnoreOriginator: 1
-    travelNearestTagRandomiseSearch: 1
+    travelNearestTagRandomiseSearch: 0
     crossHairRaycastRadius: 1
     crossHairRaycastReturnDistancePointOnly: 0
     crossHairRaycastReturnedDistance: 30
@@ -584,7 +581,7 @@ MonoBehaviour:
     triggerType: 0
     keyInputCombo: 
     keyInputType: 0
-    keyButton: Test
+    keyButton: 
     globalAbilityOverrideKeyTrigger: 0
     key: 49
     onKeyPress: 1
@@ -606,16 +603,16 @@ MonoBehaviour:
     autoReloadWhenRequired: 1
     reloadFillClip: 0
     reloadFillClipRepeatGraphic: 1
-    abilityRecast: 0.85
+    abilityRecast: 1
     startRecastAfterAbilityEnd: 0
-    travelSpeed: 11655493
-    duration: 0.1
+    travelSpeed: 22
+    duration: 8
     abilityToggle: 0
     canCastWhenToggled: 1
     repeatInitiatingAnimationWhilstToggled: 1
     bounceMode: 0
     bounceAmount: 3
-    bounceRange: 11655493
+    bounceRange: 20
     bounceTarget: 0
     bounceOnCaster: 0
     enableRandomBounce: 1
@@ -626,13 +623,13 @@ MonoBehaviour:
     bouncePositionForwardOffset: 0
     bouncePositionRightOffset: 0
     boomerangMode: 0
-    boomerangDelay: 0
+    boomerangDelay: 5
     effects:
     - effectPool: []
       foldOut: 0
-      globalEffect: {fileID: 11400000, guid: 58e5490383c0ac046b7dcb5f58cf49b1, type: 2}
-      effectAbilityID: 11705697
-      effectID: 111192906
+      globalEffect: {fileID: 11400000, guid: 9bc19580282de704a94c6b0c21c81ac2, type: 2}
+      effectAbilityID: 131462664
+      effectID: 111195847
       effectName: 
       potency: 10
       modifyPotencyUsingStats: 0
@@ -714,177 +711,9 @@ MonoBehaviour:
       effectOnHitPosition: 1
     - effectPool: []
       foldOut: 0
-      globalEffect: {fileID: 11400000, guid: 84d281283da3e1948aa3c2a88985d241, type: 2}
-      effectAbilityID: 11705697
-      effectID: 11849328
-      effectName: 
-      potency: 10
-      modifyPotencyUsingStats: 0
-      potencyStatModifications: []
-      miscellaneousProperty: 
-      miscellaneousAltProperty: 
-      activateOn: 0
-      eventType: 0
-      delay: 0
-      effectDuration: 2
-      allowDuplicateEffectActivation: 0
-      limitNoOfDuplicateEffectActivations: 0
-      maxNoDuplicateEffectActivations: 2
-      repeatEffect: 0
-      repeatDuration: 10
-      repeatInterval: 2
-      repeatCount: 0
-      repeatAesthetics: 1
-      enableEffectActivationRange: 0
-      effectActivationRange: 5
-      effectIgnoreTag: []
-      effectIgnoreTagCheckObject: 0
-      effectIgnoreTagCheckEntity: 0
-      effectRequiredTag: []
-      effectRequiredTagCheckObject: 0
-      effectRequiredTagCheckEntity: 0
-      useProjectileForActivationRange: 1
-      effectRandomChance: 0
-      effectRandomChanceProbabilityMin: 0
-      effectRandomChanceProbabilityMax: 100
-      hitStopsMovement: 1
-      hitStopsMovementRandomChance: 0
-      hitStopsMovementProbabilityMin: 0
-      hitStopsMovementProbabilityMax: 100
-      hitPreventsCasting: 0
-      hitPreventsCastingRandomChance: 0
-      hitPreventsCastingProbabilityMin: 0
-      hitPreventsCastingProbabilityMax: 100
-      hitInterruptsCasting: 0
-      hitInterruptsCastingRandomChance: 0
-      hitInterruptsCastingProbabilityMin: 0
-      hitInterruptsCastingProbabilityMax: 100
-      playEffect: 1
-      addToEffectText: 1
-      effectText: 
-      effectTextDuration: 3
-      effectTextColour: {r: 1, g: 1, b: 1, a: 1}
-      addToEffectLog: 1
-      effectLogText: 
-      enableRemoveEffect: 1
-      dispellable: 0
-      specificPrepareTimeRequried: 0
-      specificPrepareTimeArithmeticComparison: 0
-      prepareTimeToActivate: 1
-      requireSplashToActivate: 0
-      removeEffectAddToEffectText: 1
-      removeEffectText: 
-      removeEffectTextDuration: 3
-      removeEffectTextColour: {r: 1, g: 1, b: 1, a: 1}
-      removeEffectAddToEffectLog: 1
-      removeEffectLogText: 
-      showNonActivationReason: 1
-      effectGraphic:
-        refVal: {fileID: 0}
-        refName: 
-        refUpdateDateTime: 
-      effectChildGraphic:
-        refVal: {fileID: 0}
-        refName: 
-        refUpdateDateTime: 
-      scaleEffectGraphic: 0
-      effectGraphicScale: 1
-      effectGraphicOffset: {x: 0, y: 0, z: 0}
-      effectGraphicForwardOffset: 0
-      effectGraphicRightOffset: 0
-      effectGraphicDelay: 0
-      effectGraphicDuration: 2
-      effectFollowTarget: 0
-      effectOnHitPosition: 1
-    - effectPool: []
-      foldOut: 0
-      globalEffect: {fileID: 11400000, guid: c21e5f0f45bc9824d94a931b71d66d1d, type: 2}
-      effectAbilityID: 11705697
-      effectID: 11151148
-      effectName: 
-      potency: 10
-      modifyPotencyUsingStats: 0
-      potencyStatModifications: []
-      miscellaneousProperty: 
-      miscellaneousAltProperty: 
-      activateOn: 0
-      eventType: 0
-      delay: 0
-      effectDuration: 2
-      allowDuplicateEffectActivation: 0
-      limitNoOfDuplicateEffectActivations: 0
-      maxNoDuplicateEffectActivations: 2
-      repeatEffect: 0
-      repeatDuration: 10
-      repeatInterval: 2
-      repeatCount: 0
-      repeatAesthetics: 1
-      enableEffectActivationRange: 0
-      effectActivationRange: 5
-      effectIgnoreTag: []
-      effectIgnoreTagCheckObject: 0
-      effectIgnoreTagCheckEntity: 0
-      effectRequiredTag: []
-      effectRequiredTagCheckObject: 0
-      effectRequiredTagCheckEntity: 0
-      useProjectileForActivationRange: 1
-      effectRandomChance: 0
-      effectRandomChanceProbabilityMin: 0
-      effectRandomChanceProbabilityMax: 100
-      hitStopsMovement: 1
-      hitStopsMovementRandomChance: 0
-      hitStopsMovementProbabilityMin: 0
-      hitStopsMovementProbabilityMax: 100
-      hitPreventsCasting: 0
-      hitPreventsCastingRandomChance: 0
-      hitPreventsCastingProbabilityMin: 0
-      hitPreventsCastingProbabilityMax: 100
-      hitInterruptsCasting: 0
-      hitInterruptsCastingRandomChance: 0
-      hitInterruptsCastingProbabilityMin: 0
-      hitInterruptsCastingProbabilityMax: 100
-      playEffect: 1
-      addToEffectText: 1
-      effectText: 
-      effectTextDuration: 3
-      effectTextColour: {r: 1, g: 1, b: 1, a: 1}
-      addToEffectLog: 1
-      effectLogText: 
-      enableRemoveEffect: 1
-      dispellable: 0
-      specificPrepareTimeRequried: 0
-      specificPrepareTimeArithmeticComparison: 0
-      prepareTimeToActivate: 1
-      requireSplashToActivate: 0
-      removeEffectAddToEffectText: 1
-      removeEffectText: 
-      removeEffectTextDuration: 3
-      removeEffectTextColour: {r: 1, g: 1, b: 1, a: 1}
-      removeEffectAddToEffectLog: 1
-      removeEffectLogText: 
-      showNonActivationReason: 1
-      effectGraphic:
-        refVal: {fileID: 0}
-        refName: 
-        refUpdateDateTime: 
-      effectChildGraphic:
-        refVal: {fileID: 0}
-        refName: 
-        refUpdateDateTime: 
-      scaleEffectGraphic: 0
-      effectGraphicScale: 1
-      effectGraphicOffset: {x: 0, y: 0, z: 0}
-      effectGraphicForwardOffset: 0
-      effectGraphicRightOffset: 0
-      effectGraphicDelay: 0
-      effectGraphicDuration: 2
-      effectFollowTarget: 0
-      effectOnHitPosition: 1
-    - effectPool: []
-      foldOut: 0
-      globalEffect: {fileID: 11400000, guid: 2dee30f45a9846248a794aea4e637318, type: 2}
-      effectAbilityID: 11705697
-      effectID: 11848281
+      globalEffect: {fileID: 11400000, guid: dae63c4a8ca1ace4a89f5c9bbdfead6a, type: 2}
+      effectAbilityID: 131462664
+      effectID: 111289284
       effectName: 
       potency: 10
       modifyPotencyUsingStats: 0
@@ -965,7 +794,7 @@ MonoBehaviour:
       effectFollowTarget: 0
       effectOnHitPosition: 1
     onEnter: 1
-    onStay: 1
+    onStay: 0
     onStayInterval: 0.3
     onExit: 0
     particleCollision: 0
@@ -976,45 +805,44 @@ MonoBehaviour:
     startingRotation: {x: 0, y: 0, z: 0}
     setEulerRotation: 0
     travelDrag: 0
-    startingPosition: 6
+    startingPosition: 0
     additionalStartingPositions: []
     affectOriginObject: 0
     startingPositionOnObject:
       refVal: {fileID: 0}
       refName: 
       refUpdateDateTime: 
-    startingPositionOnTag: ABC/WeaponInitiation
-    startingPositionOffset: {x: 0, y: 0, z: 0}
-    startingPositionForwardOffset: 0
+    startingPositionOnTag: ABCInitiationLeft
+    startingPositionOffset: {x: 0, y: 1.5, z: 0}
+    startingPositionForwardOffset: 0.8
     startingPositionRightOffset: 0
     abilityCollisionIgnores: 0
-    impactDestroy: 7
+    impactDestroy: 0
     destroyIgnoreTag: []
     destroyDelay: 0
     useDestroySplashEffect: 0
-    destroySplashRadius: 0
+    destroySplashRadius: 7
     destroySplashExplosion: 0
-    destroySplashExplosionRadius: 11655204
-    destroySplashExplosionPower: 11655204
+    destroySplashExplosionRadius: 5
+    destroySplashExplosionPower: 5
     destroySplashExplosionUplift: 3
     destroySplashExplosionTagLimit: 0
     destroySplashExplosionAffectTag: []
-    modifyGameSpeedOnInitiation: 1
-    modifyGameSpeedOnInitiationSpeedFactor: 0.01
-    modifyGameSpeedOnInitiationDelay: 0.7
-    modifyGameSpeedOnInitiationDuration: 0.6
+    modifyGameSpeedOnInitiation: 0
+    modifyGameSpeedOnInitiationSpeedFactor: 0.05
+    modifyGameSpeedOnInitiationDelay: 0.2
+    modifyGameSpeedOnInitiationDuration: 0.5
     modifyGameSpeedOnImpact: 0
     modifyGameSpeedOnImpactSpeedFactor: 0.05
-    modifyGameSpeedOnImpactDuration: 0.7
+    modifyGameSpeedOnImpactDuration: 0.5
     modifyGameSpeedOnImpactDelay: 0.2
-    enableHitStopOnImpact: 1
+    enableHitStopOnImpact: 0
     hitStopOnImpactDelay: 0
-    hitStopOnImpactDuration: 0.3
+    hitStopOnImpactDuration: 0.35
     hitStopOnImpactEntityHitDelay: 0
     hitStopCurrentlyActive: 0
     hitStopCurrentTotalExtendDuration: 0
-    globalImpactRequiredTag:
-    - Player
+    globalImpactRequiredTag: []
     shakeCameraOnInitiation: 0
     shakeCameraOnInitiationDelay: 0
     shakeCameraOnInitiationDuration: 0.5
@@ -1023,8 +851,8 @@ MonoBehaviour:
     shakeCameraOnImpact: 1
     shakeCameraOnImpactDelay: 0
     shakeCameraOnImpactDuration: 0.3
-    shakeCameraOnImpactAmount: 3
-    shakeCameraOnImpactSpeed: 10
+    shakeCameraOnImpactAmount: 2
+    shakeCameraOnImpactSpeed: 3
     pushEntityOnImpact: 0
     pushEntityOnImpactDelay: 0.1
     pushEntityOnImpactAmount: 1.5
@@ -1032,17 +860,17 @@ MonoBehaviour:
     defyEntityGravityOnImpact: 0
     defyEntityGravityOnImpactDelay: 0.1
     defyEntityGravityOnImpactDuration: 1.5
-    shakeEntityOnImpact: 0
+    shakeEntityOnImpact: 1
     shakeEntityOnImpactShakeAmount: 0.1
     shakeEntityOnImpactShakeDecay: 0.007
     shakeEntityOnImpactShakeDelay: 0
     attachToObjectOnImpact: 0
     attachToObjectProbabilityMinValue: 0
     attachToObjectProbabilityMaxValue: 100
-    attachToObjectStickOutFactor: 0.15
+    attachToObjectStickOutFactor: 0.5
     attachToObjectNearestBone: 0
     switchColorOnImpact: 0
-    switchColorOnImpactColor: {r: 70, g: 4, b: 4, a: 1}
+    switchColorOnImpactColor: {r: 0, g: 0.051280975, b: 1, a: 1}
     switchColorOnImpactDelay: 0
     switchColorOnImpactDuration: 0.2
     switchColorOnImpactUseEmission: 0
@@ -1053,11 +881,11 @@ MonoBehaviour:
       serializedVersion: 2
       m_Bits: 4294967295
     useGraphicRadius: 0
-    colliderRadius: 1.2
+    colliderRadius: 0.6
     colliderOffset: {x: 0, y: 0, z: 0}
     applyTravelDuration: 0
     travelDurationOriginatorTagsRequired: []
-    travelDurationTime: 0
+    travelDurationTime: 1
     travelDurationStopSuddenly: 0
     useInitiatingAesthetics: 1
     initiatingAnimateOnEntity: 1
@@ -1067,18 +895,19 @@ MonoBehaviour:
     defyGravityInitiatingDuration: 2
     defyGravityInitiatingDelay: 0
     defyGravityInitiatingRaiseEvent: 0
-    initiatingAestheticsPositionOffset: {x: 0, y: 0, z: 0}
-    initiatingAestheticsPositionForwardOffset: 0
+    initiatingAestheticsPositionOffset: {x: 0, y: 1.5, z: 0}
+    initiatingAestheticsPositionForwardOffset: 1
     initiatingAestheticsPositionRightOffset: 0
     initiatingAnimationRunnerClip:
-      refVal: {fileID: 7400000, guid: 59a4a94c72b5e4448ad5fd5e1017f48c, type: 2}
-      refName: 1HS_UpperSlash
-      refUpdateDateTime: 07/06/2021 23:14:11
+      refVal: {fileID: 8054657191847103693, guid: 6adc1a6e013d79b459795af47a365a8d,
+        type: 3}
+      refName: combo_01_3
+      refUpdateDateTime: 5/26/2023 10:00:08 AM
     initiatingAnimationRunnerMask:
       refVal: {fileID: 0}
       refName: 
       refUpdateDateTime: 
-    initiatingAnimationRunnerClipSpeed: 1
+    initiatingAnimationRunnerClipSpeed: 0.6
     initiatingAnimationRunnerClipDelay: 0
     initiatingAnimationRunnerClipDuration: 1
     initiatingAnimationRunnerOnEntity: 1
@@ -1086,46 +915,46 @@ MonoBehaviour:
     initiatingAnimationRunnerOnWeapon: 0
     initiatingAnimatorParameter: 
     initiatingAnimatorParameterType: 1
-    initiatingAnimatorOnValue: 11655204
+    initiatingAnimatorOnValue: 1
     initiatingAnimatorOffValue: 0
-    initiatingAnimatorDuration: 0.1
+    initiatingAnimatorDuration: 0.2
     moveSelfWhenInitiating: 0
     moveSelfInitiatingOffset: {x: 0, y: 0, z: 0}
-    moveSelfInitiatingForwardOffset: 2
+    moveSelfInitiatingForwardOffset: 10
     moveSelfInitiatingRightOffset: 0
     moveSelfInitiatingDelay: 0
-    moveSelfInitiatingDuration: 0.4
+    moveSelfInitiatingDuration: 2
     moveSelfToTargetWhenInitiating: 0
     moveSelfToTargetInitiatingDelay: 0
-    moveSelfToTargetInitiatingDuration: 0.11655204
-    moveSelfToTargetInitiatingStopDistance: 11655204
+    moveSelfToTargetInitiatingDuration: 0.5
+    moveSelfToTargetInitiatingStopDistance: 5
     moveSelfToTargetInitiatingOffset: {x: 0, y: 0, z: 0}
     moveSelfToTargetInitiatingForwardOffset: 0
     moveSelfToTargetInitiatingRightOffset: 0
     initiatingGraphic:
-      refVal: {fileID: 1419125065721064, guid: d2a075801b2f55d4792a73bf87d3e956, type: 3}
-      refName: WeaponTrail_Fire
-      refUpdateDateTime: 25/03/2021 17:26:13
+      refVal: {fileID: 1372506504166436, guid: 6ac18ca90c16f6a4fb7446240041c666, type: 3}
+      refName: InitiateCircle
+      refUpdateDateTime: 
     initiatingSubGraphic:
       refVal: {fileID: 0}
       refName: 
       refUpdateDateTime: 
     initiatingAestheticActivateWithAbility: 0
     initiatingAestheticDuration: 2
-    initiatingAestheticDelay: 0.3
-    initiatingAestheticDetachFromParentAfterDelay: 1
-    initiatingAestheticDetachDelay: 1
+    initiatingAestheticDelay: 0
+    initiatingAestheticDetachFromParentAfterDelay: 0
+    initiatingAestheticDetachDelay: 0.1
     initiatingUseWeaponTrail: 0
     initiatingWeaponTrailGraphicIteration: 0
     intiatingProjectileDelayType: 1
-    delayBetweenInitiatingAndProjectile: 1.15
-    initiatingProjectileDelayAnimationPercentage: 55
-    initiatingStartPosition: 6
+    delayBetweenInitiatingAndProjectile: 0.2
+    initiatingProjectileDelayAnimationPercentage: 50
+    initiatingStartPosition: 0
     initiatingPositionOnObject:
       refVal: {fileID: 0}
       refName: 
       refUpdateDateTime: 
-    initiatingPositionOnTag: ABC/WeaponInitiation
+    initiatingPositionOnTag: ABCInitiationLeft
     colliderTimeDelay: 0
     colliderDelayTime: 0
     colliderKeyPressDelay: 0
@@ -1143,8 +972,8 @@ MonoBehaviour:
       refUpdateDateTime: 
     useRange: 0
     selectedTargetRangeGreaterThan: 0
-    selectedTargetRangeLessThan: 10
-    selectedTargetOffset: {x: 0, y: 0, z: 0}
+    selectedTargetRangeLessThan: 100
+    selectedTargetOffset: {x: 0, y: 1.21, z: 0}
     selectedTargetForwardOffset: 0
     selectedTargetRightOffset: 0
     abilityCanMiss: 1
@@ -1168,8 +997,8 @@ MonoBehaviour:
     waitForKeyAllowChangeOfTarget: 0
     moveInteruptPreparation: 0
     distanceInteruptPreparation: 0
-    showPrepareTimeOnGUI: 0
-    usePreparingAesthetics: 0
+    showPrepareTimeOnGUI: 1
+    usePreparingAesthetics: 1
     preparingAnimateOnEntity: 1
     preparingAnimateOnScrollGraphic: 0
     preparingAnimateOnWeapon: 0
@@ -1177,26 +1006,26 @@ MonoBehaviour:
     defyGravityPreparingDuration: 2
     defyGravityPreparingDelay: 0
     defyGravityPreparingRaiseEvent: 0
-    preparingAestheticsPositionOffset: {x: 0, y: 0, z: 0}
+    preparingAestheticsPositionOffset: {x: 0, y: 0.1, z: 0}
     preparingAestheticsPositionForwardOffset: 0
     preparingAestheticsPositionRightOffset: 0
     preparingAnimationRunnerClip:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
+      refVal: {fileID: 7400000, guid: 323fc0a7dc356fb47bf6e379a587c3a9, type: 2}
+      refName: PreparingStrong
+      refUpdateDateTime: 27/02/2021 12:30:06
     preparingAnimationRunnerMask:
       refVal: {fileID: 0}
       refName: 
       refUpdateDateTime: 
-    preparingAnimationRunnerClipSpeed: 1
+    preparingAnimationRunnerClipSpeed: 0.5
     preparingAnimationRunnerClipDelay: 0
     preparingAnimationRunnerOnEntity: 1
     preparingAnimationRunnerOnScrollGraphic: 0
     preparingAnimationRunnerOnWeapon: 0
     preparingAnimatorParameter: 
-    preparingAnimatorParameterType: 0
-    preparingAnimatorOnValue: 
-    preparingAnimatorOffValue: 
+    preparingAnimatorParameterType: 1
+    preparingAnimatorOnValue: 1
+    preparingAnimatorOffValue: 0
     moveSelfWhenPreparing: 0
     moveSelfPreparingOffset: {x: 0, y: 0, z: 0}
     moveSelfPreparingForwardOffset: 0
@@ -1205,16 +1034,16 @@ MonoBehaviour:
     moveSelfPreparingDuration: 1
     moveSelfToTargetWhenPreparing: 0
     moveSelfToTargetPreparingDelay: 0
-    moveSelfToTargetPreparingDuration: 0.11655204
-    moveSelfToTargetPreparingStopDistance: 11655204
+    moveSelfToTargetPreparingDuration: 0.5
+    moveSelfToTargetPreparingStopDistance: 5
     moveSelfToTargetActivatePreparingAnimationOnlyWhenMoving: 0
     moveSelfToTargetPreparingOffset: {x: 0, y: 0, z: 0}
     moveSelfToTargetPreparingForwardOffset: 0
     moveSelfToTargetPreparingRightOffset: 0
     preparingGraphic:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
+      refVal: {fileID: 1614781469252326, guid: b40b6c5b4c7568f4da3e6a72be547d2f, type: 3}
+      refName: ABC_DarkActivationCircle
+      refUpdateDateTime: 27/02/2021 12:17:03
     preparingSubGraphic:
       refVal: {fileID: 0}
       refName: 
@@ -1239,7 +1068,7 @@ MonoBehaviour:
       refVal: {fileID: 0}
       refName: 
       refUpdateDateTime: 
-    projToStartPosDuration: 11655204
+    projToStartPosDuration: 5
     projToStartStartingPosition: 0
     projToStartRotateToTarget: 0
     projToStartRotation: {x: 0, y: 0, z: 0}
@@ -1369,74 +1198,29 @@ MonoBehaviour:
       refName: 
       refUpdateDateTime: 
     reloadAbilityPositionOnTag: 
-    useAbilityEndAesthetics: 0
+    useAbilityEndAesthetics: 1
     abilityEndUseEffectGraphic: 0
-    abilityEndActivateOnEnvironmentOnly: 0
+    abilityEndActivateOnEnvironmentOnly: 1
     abilityEndGraphic:
-      refVal: {fileID: 0}
-      refName: 
-      refUpdateDateTime: 
+      refVal: {fileID: 1120835270511274, guid: 33cfc2755a55b7e4c86c9d7018efbaaa, type: 3}
+      refName: Hit 5
+      refUpdateDateTime: 5/26/2023 11:09:55 AM
     abilityEndSubGraphic:
       refVal: {fileID: 0}
       refName: 
       refUpdateDateTime: 
-    scaleAbilityEndGraphic: 0
-    abilityEndGraphicScale: 1
+    scaleAbilityEndGraphic: 1
+    abilityEndGraphicScale: 7
     abEndAestheticDuration: 2
     stopMovementOnInitiate: 1
-    stopMovementOnInitiateDuration: 0
+    stopMovementOnInitiateDuration: 0.5
     stopMovementOnInitiateFreezePosition: 0
     stopMovementOnInitiateDisableComponents: 1
     stopMovementOnInitiateRaiseEvent: 1
     stopMovementOnPreparing: 0
-    stopMovementOnPreparingDuration: 0.11655204
+    stopMovementOnPreparingDuration: 1
     stopMovementOnPreparingFreezePosition: 1
     stopMovementOnPreparingDisableComponents: 0
-    stopMovementOnPreparingRaiseEvent: 0
-  ElementAIRules:
-  - RuleName: Flaming Upper Slash
-    AIRuleLastActivationTime: 0
-    selectedAIAction: 0
-    AIAbilityID: 11705697
-    AIAbilityListChoice: 0
-    AIActivateAbilityGroupIDs: 
-    AIActivateGroupListChoice: 0
-    AIWeaponID: -1
-    AIWeaponListChoice: 0
-    AIBlockDurationMin: 10
-    AIBlockDurationMax: 20
-    AIEnableRuleCooldown: 1
-    AIRuleCooldownMinValue: 30
-    AIRuleCooldownMaxValue: 90
-    AIRuleCurrentCooldown: 0
-    probabilityMinValue: 0
-    probabilityMaxValue: 30
-    AITargets: []
-    AITags:
-    - Target
-    - TargetPriority
-    AIAbilityTarget: 0
-    AINearestTargets: []
-    AINearestTags: []
-    castWithoutConditions: 0
-    activateWithoutTarget: 0
-    bypassTargetLimitations: 0
-    AIRangeMin: 0
-    AIRangeMax: 5
-    updateTarget: 0
-    ignoreCaster: 1
-    stateEffectConditions: []
-    stateEffectAbsentConditions: []
-    AIHP: 0
-    AIHealthGreaterThan: 0
-    AIHealthLessThan: 100
-    AIMP: 0
-    AIManaGreaterThan: 0
-    AIManaLessThan: 100
-    AIAreaActivationLimit: 0
-    AIAreaActivationLimitRange: 20
-    AIAreaActivationLimitMax: 2
-    AIAreaActivationLimitTags: []
-    AIFacingTarget: 0
-    AIActive: 1
+    stopMovementOnPreparingRaiseEvent: 1
+  ElementAIRules: []
   ElementEffects: []

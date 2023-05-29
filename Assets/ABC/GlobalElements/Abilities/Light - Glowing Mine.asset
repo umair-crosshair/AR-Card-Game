@@ -587,7 +587,7 @@ MonoBehaviour:
     keyInputType: 0
     keyButton: 
     globalAbilityOverrideKeyTrigger: 0
-    key: 51
+    key: 0
     onKeyPress: 1
     onKeyDown: 0
     requireAdditionalKeyInput: 0
@@ -713,7 +713,8 @@ MonoBehaviour:
       removeEffectLogText: 
       showNonActivationReason: 0
       effectGraphic:
-        refVal: {fileID: 1379549782533940, guid: 91d45b38d0f5d37478dae0e69005642b, type: 3}
+        refVal: {fileID: 1379549782533940, guid: 91d45b38d0f5d37478dae0e69005642b,
+          type: 3}
         refName: LightImpact
         refUpdateDateTime: 
       effectChildGraphic:
@@ -808,7 +809,8 @@ MonoBehaviour:
       removeEffectLogText: 
       showNonActivationReason: 0
       effectGraphic:
-        refVal: {fileID: 1062216865421866, guid: eb435cdeadee7b148999b988777ba1ea, type: 3}
+        refVal: {fileID: 1062216865421866, guid: eb435cdeadee7b148999b988777ba1ea,
+          type: 3}
         refName: HealImpact
         refUpdateDateTime: 
       effectChildGraphic:
