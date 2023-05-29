@@ -30543,6 +30543,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerCard
       objectReference: {fileID: 0}
+    - target: {fileID: 2260236114868596559, guid: fb027d3e6a3df714f8ca99515a87cb4c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb027d3e6a3df714f8ca99515a87cb4c, type: 3}
 --- !u!4 &2290810466665577456
@@ -41485,7 +41490,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &3771264595708950018
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -44616,6 +44621,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: EnemyCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 4635107252115338174, guid: aceba20ea9facf74e9e9d7e46bade6e2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aceba20ea9facf74e9e9d7e46bade6e2, type: 3}

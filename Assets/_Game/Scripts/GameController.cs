@@ -24,7 +24,7 @@ public class GameController : MonoBehaviour
         if (!IsPlayerExists())
         {
             Debug.Log("Player does not exist");
-            InitPlayer();
+            InitPlayer(false);
         }
         Invoke("InitEnemy", 1);
         //InitEnemy();

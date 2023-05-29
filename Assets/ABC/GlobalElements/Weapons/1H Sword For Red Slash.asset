@@ -7656,7 +7656,7 @@ MonoBehaviour:
       - {fileID: 0}
       - {fileID: 0}
       - {fileID: 0}
-      foldOut: 0
+      foldOut: 1
       globalEffect: {fileID: 0}
       effectAbilityID: 0
       effectID: 115571
@@ -7733,10 +7733,10 @@ MonoBehaviour:
       removeEffectLogText: 
       showNonActivationReason: 0
       effectGraphic:
-        refVal: {fileID: 4535006216103734310, guid: e5756032baed779478e067813db54f44,
+        refVal: {fileID: 1758473627833946668, guid: 9b21333b068a5084ba09535839bee3c8,
           type: 3}
-        refName: Star hit electric
-        refUpdateDateTime: 5/25/2023 11:17:03 AM
+        refName: Stones hit
+        refUpdateDateTime: 5/29/2023 11:02:11 AM
       effectChildGraphic:
         refVal: {fileID: 0}
         refName: 
@@ -8346,7 +8346,7 @@ MonoBehaviour:
       refName: 
       refUpdateDateTime: 
     reloadAbilityPositionOnTag: 
-    useAbilityEndAesthetics: 1
+    useAbilityEndAesthetics: 0
     abilityEndUseEffectGraphic: 0
     abilityEndActivateOnEnvironmentOnly: 0
     abilityEndGraphic:

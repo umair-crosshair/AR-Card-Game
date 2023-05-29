@@ -66946,7 +66946,7 @@ MonoBehaviour:
   CurrentAbilityGroup: 0
   CurrentWeaponIndex: 0
   CurrentAI: 0
-  CurrentAbility: 18
+  CurrentAbility: 0
   abilitySideListFilterChoice: 1
   abilitySideListPreviousFilterChoice: 1
   DraggableMode: 1
