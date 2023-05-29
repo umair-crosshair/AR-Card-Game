@@ -33398,10 +33398,10 @@ MonoBehaviour:
     AIActive: 1
   ManaGUIList: []
   IconUIs: []
-  toolbarControllerManagerSelection: 4
+  toolbarControllerManagerSelection: 0
   toolbarControllerManagerGeneralSettingsSelection: 0
   toolbarControllerManagerTargetSettingsSelection: 2
-  toolbarControllerManagerAISettingsSelection: 3
+  toolbarControllerManagerAISettingsSelection: 2
   toolbarControllerManagerAbilityGroupSettingsSelection: 0
   toolbarControllerManagerWeaponSettingsSelection: 2
   toolbarAbiltyManagerSelection: 3
@@ -33443,7 +33443,7 @@ MonoBehaviour:
   deactiveIdleModeOnAbilityInput: 1
   enableAI: 1
   aiRestrictSystemTriggers: 1
-  maxAIRange: 20
+  maxAIRange: 100
   aiPotentialTargetRetrievalIntermission: 3
   aiRandomizePotentialTargets: 1
   minimumAICheckIntermission: 0.5
@@ -33456,7 +33456,7 @@ MonoBehaviour:
   navAIPreventMovementWhenSwitchingIdleMode: 1
   wanderTillDestinationSet: 1
   wanderInterval: 10
-  wanderAreaRange: 20
+  wanderAreaRange: 10
   wanderSpeed: 2
   wanderAnimationRunnerClip:
     refVal: {fileID: 7400000, guid: 2ab1968d0f93bca458f1959f66f8a3ba, type: 2}
@@ -33480,7 +33480,7 @@ MonoBehaviour:
   - Target
   - Follow
   randomizeDestinationTags: 0
-  destinationSearchRadius: 35
+  destinationSearchRadius: 20
   aiNavNewDestinationInterval: 3
   speed: 5
   navSpeedAdjustment: 0
@@ -33504,7 +33504,7 @@ MonoBehaviour:
   stopDistanceCheckVelocity: 0
   alwaysFaceDestination: 1
   faceDestinationTurnSpeed: 20
-  lineOfSightRequired: 1
+  lineOfSightRequired: 0
   lineOfSightRange: 35
   enableRotationBehaviour: 1
   rotationInterval: 15

@@ -7016,9 +7016,9 @@ MonoBehaviour:
     shakeCameraOnInitiationSpeed: 25
     shakeCameraOnImpact: 1
     shakeCameraOnImpactDelay: 0
-    shakeCameraOnImpactDuration: 0.5
-    shakeCameraOnImpactAmount: 0.3
-    shakeCameraOnImpactSpeed: 20
+    shakeCameraOnImpactDuration: 0.3
+    shakeCameraOnImpactAmount: 2
+    shakeCameraOnImpactSpeed: 3
     pushEntityOnImpact: 0
     pushEntityOnImpactDelay: 0.1
     pushEntityOnImpactAmount: 1.5
@@ -7997,7 +7997,7 @@ MonoBehaviour:
     shakeCameraOnInitiationSpeed: 25
     shakeCameraOnImpact: 1
     shakeCameraOnImpactDelay: 0
-    shakeCameraOnImpactDuration: 0.1
+    shakeCameraOnImpactDuration: 0.3
     shakeCameraOnImpactAmount: 2
     shakeCameraOnImpactSpeed: 3
     pushEntityOnImpact: 0
@@ -8739,11 +8739,11 @@ MonoBehaviour:
     shakeCameraOnInitiationDuration: 0.5
     shakeCameraOnInitiationAmount: 0.5
     shakeCameraOnInitiationSpeed: 25
-    shakeCameraOnImpact: 0
+    shakeCameraOnImpact: 1
     shakeCameraOnImpactDelay: 0
-    shakeCameraOnImpactDuration: 0.5
-    shakeCameraOnImpactAmount: 0.6
-    shakeCameraOnImpactSpeed: 25
+    shakeCameraOnImpactDuration: 0.3
+    shakeCameraOnImpactAmount: 2
+    shakeCameraOnImpactSpeed: 3
     pushEntityOnImpact: 0
     pushEntityOnImpactDelay: 0.1
     pushEntityOnImpactAmount: 1.5
@@ -12330,7 +12330,7 @@ MonoBehaviour:
       refUpdateDateTime: 03/07/2021 09:28:33
     loggingEnabled: 0
     globalAbilityOverrideEnableStatus: 0
-    abilityEnabled: 1
+    abilityEnabled: 0
     enableDuration: 0
     enableAfterEvent: 0
     enableAfterAbilityIDsActivated: 
@@ -13070,7 +13070,7 @@ MonoBehaviour:
       refUpdateDateTime: 03/07/2021 19:56:59
     loggingEnabled: 0
     globalAbilityOverrideEnableStatus: 0
-    abilityEnabled: 1
+    abilityEnabled: 0
     enableDuration: 0
     enableAfterEvent: 0
     enableAfterAbilityIDsActivated: 

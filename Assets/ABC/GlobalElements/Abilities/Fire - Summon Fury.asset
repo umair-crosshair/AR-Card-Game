@@ -424,7 +424,7 @@ MonoBehaviour:
       refUpdateDateTime: 24/04/2021 10:05:14
     loggingEnabled: 0
     globalAbilityOverrideEnableStatus: 0
-    abilityEnabled: 1
+    abilityEnabled: 0
     enableDuration: 0
     enableAfterEvent: 0
     enableAfterAbilityIDsActivated: 
