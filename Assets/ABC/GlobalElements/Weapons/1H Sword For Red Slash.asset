@@ -4402,7 +4402,7 @@ MonoBehaviour:
       - {fileID: 0}
       - {fileID: 0}
       - {fileID: 0}
-      foldOut: 0
+      foldOut: 1
       globalEffect: {fileID: 0}
       effectAbilityID: 0
       effectID: 115571
@@ -4479,10 +4479,10 @@ MonoBehaviour:
       removeEffectLogText: 
       showNonActivationReason: 0
       effectGraphic:
-        refVal: {fileID: 4535006216103734310, guid: e5756032baed779478e067813db54f44,
+        refVal: {fileID: 358637981425055526, guid: 8eb503696b886e04faff8fc0f480d473,
           type: 3}
-        refName: Star hit electric
-        refUpdateDateTime: 5/25/2023 11:09:33 AM
+        refName: Explosion
+        refUpdateDateTime: 5/29/2023 10:53:31 AM
       effectChildGraphic:
         refVal: {fileID: 0}
         refName: 
@@ -4497,7 +4497,7 @@ MonoBehaviour:
       effectFollowTarget: 1
       effectOnHitPosition: 0
     - effectPool: []
-      foldOut: 0
+      foldOut: 1
       globalEffect: {fileID: 0}
       effectAbilityID: 0
       effectID: 115881
@@ -4581,7 +4581,7 @@ MonoBehaviour:
       effectFollowTarget: 0
       effectOnHitPosition: 0
     - effectPool: []
-      foldOut: 0
+      foldOut: 1
       globalEffect: {fileID: 0}
       effectAbilityID: 0
       effectID: 115831
@@ -4749,7 +4749,7 @@ MonoBehaviour:
       effectFollowTarget: 0
       effectOnHitPosition: 0
     - effectPool: []
-      foldOut: 0
+      foldOut: 1
       globalEffect: {fileID: 0}
       effectAbilityID: 0
       effectID: 111296659
@@ -5702,7 +5702,7 @@ MonoBehaviour:
       - {fileID: 0}
       - {fileID: 0}
       - {fileID: 0}
-      foldOut: 0
+      foldOut: 1
       globalEffect: {fileID: 0}
       effectAbilityID: 0
       effectID: 115571
@@ -5779,10 +5779,10 @@ MonoBehaviour:
       removeEffectLogText: 
       showNonActivationReason: 0
       effectGraphic:
-        refVal: {fileID: 4535006216103734310, guid: e5756032baed779478e067813db54f44,
+        refVal: {fileID: 358637981425055526, guid: 8eb503696b886e04faff8fc0f480d473,
           type: 3}
-        refName: Star hit electric
-        refUpdateDateTime: 5/25/2023 11:16:12 AM
+        refName: Explosion
+        refUpdateDateTime: 5/29/2023 10:53:40 AM
       effectChildGraphic:
         refVal: {fileID: 0}
         refName: 
@@ -7838,10 +7838,10 @@ MonoBehaviour:
       removeEffectLogText: 
       showNonActivationReason: 0
       effectGraphic:
-        refVal: {fileID: 394866225015085040, guid: a62a993be129b6a469bc8d79c4471a25,
+        refVal: {fileID: 1758473627833946668, guid: 9b21333b068a5084ba09535839bee3c8,
           type: 3}
-        refName: MyLightningImpact
-        refUpdateDateTime: 5/25/2023 11:25:08 AM
+        refName: Stones hit
+        refUpdateDateTime: 5/29/2023 10:58:29 AM
       effectChildGraphic:
         refVal: {fileID: 0}
         refName: 
@@ -8346,14 +8346,14 @@ MonoBehaviour:
       refName: 
       refUpdateDateTime: 
     reloadAbilityPositionOnTag: 
-    useAbilityEndAesthetics: 0
+    useAbilityEndAesthetics: 1
     abilityEndUseEffectGraphic: 0
     abilityEndActivateOnEnvironmentOnly: 0
     abilityEndGraphic:
-      refVal: {fileID: 2944396702758532163, guid: e190bf97c041e58448af6b043116cba0,
+      refVal: {fileID: 1758473627833946668, guid: 9b21333b068a5084ba09535839bee3c8,
         type: 3}
-      refName: Holy hit
-      refUpdateDateTime: 5/25/2023 9:31:44 AM
+      refName: Stones hit
+      refUpdateDateTime: 5/29/2023 11:00:08 AM
     abilityEndSubGraphic:
       refVal: {fileID: 0}
       refName: 
