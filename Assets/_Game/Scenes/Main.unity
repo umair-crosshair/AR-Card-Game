@@ -22287,6 +22287,8 @@ MonoBehaviour:
   playerCamera: {fileID: 1618380440}
   playerPrefab: {fileID: 8622687175138694396, guid: f77a7c2b66d667847971bdfec661cd06,
     type: 3}
+  playerFirePrefab: {fileID: 8622687175138694396, guid: 86d47d1e5e67c18448495f84fb48a08f,
+    type: 3}
   enemyPrefab: {fileID: 8809039457099187998, guid: fb9b7eaca64d29846abaa1e285e19bd3,
     type: 3}
   dummyPrefab: {fileID: 8723172306774574839, guid: becf7dabfa4bd3c4facdff4acb48d4a5,
@@ -30474,7 +30476,7 @@ PrefabInstance:
     - target: {fileID: 2260236113703404564, guid: fb027d3e6a3df714f8ca99515a87cb4c,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2260236113703404566, guid: fb027d3e6a3df714f8ca99515a87cb4c,
         type: 3}
@@ -41374,7 +41376,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3771264595018906552}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -44608,7 +44610,7 @@ PrefabInstance:
     - target: {fileID: 4635107251727449605, guid: aceba20ea9facf74e9e9d7e46bade6e2,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4635107251727449607, guid: aceba20ea9facf74e9e9d7e46bade6e2,
         type: 3}

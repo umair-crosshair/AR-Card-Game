@@ -587,7 +587,7 @@ MonoBehaviour:
     keyInputType: 0
     keyButton: 
     globalAbilityOverrideKeyTrigger: 0
-    key: 62
+    key: 51
     onKeyPress: 1
     onKeyDown: 0
     requireAdditionalKeyInput: 0

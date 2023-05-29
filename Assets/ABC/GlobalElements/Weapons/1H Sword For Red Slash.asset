@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c01ab283f033a14f8c5a09e2655c67e, type: 3}
-  m_Name: 1H Sword
+  m_Name: 1H Sword For Red Slash
   m_EditorClassIdentifier: 
   elementIcon: {fileID: 2800000, guid: 21871228c33c9d2429e12d25f8ab4fbe, type: 3}
   showWeaponPreview: 0
@@ -5141,10 +5141,10 @@ MonoBehaviour:
     moveSelfToTargetInitiatingForwardOffset: 0
     moveSelfToTargetInitiatingRightOffset: 0
     initiatingGraphic:
-      refVal: {fileID: 1171201465392465800, guid: 029d040408a11b54ba291dfa3a08aa44,
+      refVal: {fileID: 1171201465392465800, guid: ac34e73bb8c9a3648a555450b2ce2512,
         type: 3}
-      refName: Attack1Electro slash
-      refUpdateDateTime: 5/29/2023 10:29:57 AM
+      refName: Attack1Redslash 1
+      refUpdateDateTime: 5/29/2023 10:20:20 AM
     initiatingSubGraphic:
       refVal: {fileID: 0}
       refName: 
@@ -6272,10 +6272,10 @@ MonoBehaviour:
     moveSelfToTargetInitiatingForwardOffset: 0
     moveSelfToTargetInitiatingRightOffset: 0
     initiatingGraphic:
-      refVal: {fileID: 1171201465392465800, guid: 400883ab908a4414594a5f38f7454052,
+      refVal: {fileID: 1171201465392465800, guid: 181535803a0b5b44abea081987e6d096,
         type: 3}
-      refName: Attack2Electro slash
-      refUpdateDateTime: 5/25/2023 9:57:34 AM
+      refName: Attack2slash 1
+      refUpdateDateTime: 5/29/2023 10:27:41 AM
     initiatingSubGraphic:
       refVal: {fileID: 0}
       refName: 
@@ -8079,10 +8079,10 @@ MonoBehaviour:
     moveSelfToTargetInitiatingForwardOffset: 0
     moveSelfToTargetInitiatingRightOffset: 0
     initiatingGraphic:
-      refVal: {fileID: 1171201465392465800, guid: b6b8d0619e6654440ba524257a18da94,
+      refVal: {fileID: 1171201465392465800, guid: cb31d73f2110cf1458b568e28d37e767,
         type: 3}
-      refName: Attack4Electro slash
-      refUpdateDateTime: 5/25/2023 10:00:13 AM
+      refName: Attack4slash 1
+      refUpdateDateTime: 5/29/2023 10:27:47 AM
     initiatingSubGraphic:
       refVal: {fileID: 0}
       refName: 

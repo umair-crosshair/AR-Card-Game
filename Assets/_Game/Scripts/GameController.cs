@@ -7,12 +7,16 @@ public class GameController : MonoBehaviour
 {
     [SerializeField] private GameObject playerCamera;
     [SerializeField]private GameObject playerPrefab;
+    [SerializeField] private GameObject playerFirePrefab;
+
+
     [SerializeField] private GameObject enemyPrefab;
     [SerializeField] private GameObject dummyPrefab;
     [SerializeField] private Transform PlayerCard;
     [SerializeField] private Transform EnemyCard;
     [SerializeField] private Transform DummyCard;
 
+    
 
     private void Start()
     {
@@ -36,11 +40,20 @@ public class GameController : MonoBehaviour
             return true;
         }
     }
-    public void InitPlayer()
+    public void InitPlayer(bool isElectro = true)
     {
-        GameObject playerObj = Instantiate(playerPrefab, PlayerCard.transform.position, Quaternion.identity);
-        playerCamera.GetComponent<ABC_CameraBase>().followTarget = playerObj;
+        GameObject playerObj;
 
+        if (isElectro)
+        {
+            playerObj = Instantiate(playerPrefab, PlayerCard.transform.position, Quaternion.identity);
+        }
+        else
+        {
+            playerObj = Instantiate(playerFirePrefab, PlayerCard.transform.position, Quaternion.identity);
+        }
+
+        playerCamera.GetComponent<ABC_CameraBase>().followTarget = playerObj;
     }
     public void InitEnemy()
     {
@@ -51,17 +64,17 @@ public class GameController : MonoBehaviour
         Instantiate(dummyPrefab, DummyCard.transform.position, Quaternion.identity);
     }
 
-    public void RespawnPlayer()
+    public void RespawnPlayer(bool isElectro = true)
     {
         if (!IsPlayerExists())
         {
-            InitPlayer();
+            InitPlayer(isElectro);
         }
         else
         {
             GameObject obj = GameObject.FindGameObjectWithTag("Player");
             Destroy(obj);
-            InitPlayer();
+            InitPlayer(isElectro);
         }
     }
 #if UNITY_EDITOR
@@ -71,6 +84,9 @@ public class GameController : MonoBehaviour
         {
             RespawnPlayer();
         }
+        else if (Input.GetKeyDown(KeyCode.Z)){
+            RespawnPlayer(false);
+        }
         if (Input.GetKeyDown(KeyCode.E))
         {
             InitEnemy();
@@ -79,6 +95,7 @@ public class GameController : MonoBehaviour
         {
             SpawnDummy();
         }
+        
     }
 
 #endif
